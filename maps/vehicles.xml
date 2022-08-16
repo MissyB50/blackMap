@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <vehicles>
-    <vehicle filename="data/vehicles/masseyFerguson/series3670/series3670.xml" id="1" isAbsolute="true" age="0.000000" price="99500.000000" farmId="1" propertyState="1" operatingTime="1.757283" selectedObjectIndex="1" subSelectedObjectIndex="1">
+    <vehicle filename="data/vehicles/masseyFerguson/series3670/series3670.xml" id="1" isAbsolute="true" age="0.000000" price="99500.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="1.757283" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="1005.6500854492 59.942226409912 942.95440673828" rotation="-179.878509604 -0.0022038492898107 -179.99891217869"/>
         <component index="2" position="1005.6499633789 60.67578125 941.28295898438" rotation="-179.87848228324 -0.0022027806136671 -179.99995036744"/>
         <configuration name="cropSensor" id="1"/>
@@ -39,7 +39,7 @@
         <aiFieldWorker lastTurnDirection="false"/>
         <attacherJoints comboDirection="-1"/>
     </vehicle>
-    <vehicle filename="data/vehicles/claas/scorpion1033/scorpion1033.xml" id="2" isAbsolute="true" age="0.000000" price="102000.000000" farmId="1" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+    <vehicle filename="data/vehicles/claas/scorpion1033/scorpion1033.xml" id="2" isAbsolute="true" age="0.000000" price="102000.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="1002.5981445313 59.987400054932 942.95513916016" rotation="179.99945859382 0.072847122458613 -179.99889851831"/>
         <component index="2" position="1002.5964355469 60.605243682861 944.30444335938" rotation="179.99904878247 0.07284433435405 179.99876191453"/>
         <configuration name="fillUnit" id="1"/>
@@ -81,7 +81,7 @@
         <crabSteering state="1"/>
         <attacherJoints comboDirection="-1"/>
     </vehicle>
-    <vehicle filename="data/vehicles/newHolland/chSeries/chSeries.xml" id="3" isAbsolute="true" age="0.000000" price="267000.000000" farmId="1" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+    <vehicle filename="data/vehicles/newHolland/chSeries/chSeries.xml" id="3" isAbsolute="true" age="0.000000" price="267000.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="998.90014648438 59.924468994141 942.10333251953" rotation="179.93954417442 0.0023055317300473 179.99995036744"/>
         <component index="2" position="998.90008544922 60.815498352051 943.95782470703" rotation="179.93947587253 0.0023031129826374 179.99728659367"/>
         <configuration name="fillUnit" id="1"/>
@@ -126,7 +126,7 @@
             <action name="turnOn" identifier="data/vehicles/newHolland/chSeries/chSeries.xml" lastDirection="-1"/>
         </actionController>
     </vehicle>
-    <vehicle filename="data/vehicles/claas/carat/carat.xml" id="4" isAbsolute="true" age="0.000000" price="21000.000000" farmId="1" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+    <vehicle filename="data/vehicles/claas/carat/carat.xml" id="4" isAbsolute="true" age="0.000000" price="21000.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="994.55004882813 59.972221374512 943.00836181641" rotation="-179.42865968488 -0.00030941936715265 179.99899414096"/>
         <configuration name="fillUnit" id="2"/>
         <configuration name="wheel" id="MICHELIN_BROAD"/>
@@ -159,7 +159,7 @@
         </fillUnit>
         <trailer tipSideIndex="1" doorState="false" tipAnimationTime="0.000000" tipState="0"/>
     </vehicle>
-    <vehicle filename="data/vehicles/newHolland/superFlex25/superFlex25.xml" id="5" isAbsolute="true" age="0.000000" price="42500.000000" farmId="1" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+    <vehicle filename="data/vehicles/newHolland/superFlex25/superFlex25.xml" id="5" isAbsolute="true" age="0.000000" price="42500.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="987.89996337891 60.000267028809 942.75592041016" rotation="179.60578015044 0.00045493847758187 -179.99999134858"/>
         <configuration name="design" id="2"/>
         <boughtConfiguration name="design" id="2"/>
@@ -179,7 +179,7 @@
             <action name="turnOn" identifier="data/vehicles/newHolland/superFlex25/superFlex25.xml" lastDirection="-1"/>
         </actionController>
     </vehicle>
-    <vehicle filename="data/vehicles/magsi/telehandlerShovel/telehandlerShovel.xml" id="6" isAbsolute="true" age="0.000000" price="2200.000000" farmId="1" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+    <vehicle filename="data/vehicles/magsi/telehandlerShovel/telehandlerShovel.xml" id="6" isAbsolute="true" age="0.000000" price="2200.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="981.65002441406 60.00004196167 942.75598144531" rotation="179.99480040481 2.4903481383487e-05 179.99941761269"/>
         <configuration name="fillUnit" id="1"/>
         <configuration name="fillVolume" id="1"/>
@@ -198,7 +198,7 @@
             <unit index="2" fillType="UNKNOWN" fillLevel="0.000000"/>
         </fillUnit>
     </vehicle>
-    <vehicle filename="data/vehicles/fendt/vario900/vario900.xml" id="7" isAbsolute="true" age="0.000000" price="355500.000000" farmId="1" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+    <vehicle filename="data/vehicles/fendt/vario900/vario900.xml" id="7" isAbsolute="true" age="0.000000" price="355500.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="976.55004882813 59.941307067871 942.65698242188" rotation="-179.85859277238 0.001659840709831 179.9997864429"/>
         <configuration name="cropSensor" id="1"/>
         <configuration name="fillUnit" id="1"/>
@@ -240,7 +240,7 @@
         <attacherJoints comboDirection="-1"/>
         <reverseDriving isActive="false"/>
     </vehicle>
-    <vehicle filename="data/vehicles/damcon/pl75/pl75.xml" id="8" isAbsolute="true" age="0.000000" price="26000.000000" farmId="1" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+    <vehicle filename="data/vehicles/damcon/pl75/pl75.xml" id="8" isAbsolute="true" age="0.000000" price="26000.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="972 60.009410858154 943.20690917969" rotation="-179.4668677631 8.1541799286375e-05 -179.99933565042"/>
         <configuration name="fillUnit" id="1"/>
         <configuration name="wheel" id="1"/>
@@ -265,7 +265,7 @@
             <action name="turnOn" identifier="data/vehicles/damcon/pl75/pl75.xml" lastDirection="-1"/>
         </actionController>
     </vehicle>
-    <vehicle filename="data/objects/pallets/treeSaplingPallet/treeSaplingPallet.xml" id="9" isAbsolute="true" age="0.000000" price="1000.000000" farmId="1" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+    <vehicle filename="data/objects/pallets/treeSaplingPallet/treeSaplingPallet.xml" id="9" isAbsolute="true" age="0.000000" price="1000.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="968.59985351563 60.001804351807 942.755859375" rotation="-179.99971814101 -0.018328637547431 179.99980010328"/>
         <configuration name="fillUnit" id="1"/>
         <configuration name="treeSaplingType" id="1"/>
@@ -275,7 +275,7 @@
             <unit index="1" fillType="TREESAPLINGS" fillLevel="20.000000"/>
         </fillUnit>
     </vehicle>
-    <vehicle filename="data/vehicles/lemken/titan18/titan18.xml" id="10" isAbsolute="true" age="0.000000" price="59000.000000" farmId="1" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+    <vehicle filename="data/vehicles/lemken/titan18/titan18.xml" id="10" isAbsolute="true" age="0.000000" price="59000.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="965.89965820313 60.273456573486 942.94952392578" rotation="-177.55457872004 -9.7835742854634e-06 -179.93864258945"/>
         <component index="2" position="965.89880371094 61.074417114258 936.82824707031" rotation="-172.55437481359 -5.9990109984403e-06 -179.93864258945"/>
         <configuration name="folding" id="1"/>
@@ -300,7 +300,7 @@
         <plow rotationMax="false" turnAnimTime="0.000000"/>
         <actionController lastDirection="-1" numActions="2"/>
     </vehicle>
-    <vehicle filename="data/vehicles/rostselmash/k12200/k12200.xml" id="11" isAbsolute="true" age="0.000000" price="101000.000000" farmId="1" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+    <vehicle filename="data/vehicles/rostselmash/k12200/k12200.xml" id="11" isAbsolute="true" age="0.000000" price="101000.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="961.30023193359 60.286426544189 943.55822753906" rotation="-178.21881461682 0.0014802524665781 179.96101828917"/>
         <component index="2" position="961.30059814453 60.668674468994 940.30963134766" rotation="-175.23713651579 0.0014993604460521 179.96097730804"/>
         <component index="3" position="959.90997314453 63.002033233643 944.3154296875" rotation="179.67402740063 1.7510767284139 79.455474501542"/>
@@ -330,7 +330,7 @@
         <foldable foldAnimTime="1.000000"/>
         <actionController lastDirection="-1" numActions="2"/>
     </vehicle>
-    <vehicle filename="data/vehicles/kuhn/hr4040/hr4040.xml" id="12" isAbsolute="true" age="0.000000" price="25000.000000" farmId="1" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+    <vehicle filename="data/vehicles/kuhn/hr4040/hr4040.xml" id="12" isAbsolute="true" age="0.000000" price="25000.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="956.65002441406 60 942.82458496094" rotation="179.99929466928 -0.012004154182843 179.99940395231"/>
         <component index="2" position="956.65014648438 60.442562103271 943.47064208984" rotation="-179.35145122651 -0.013250174287298 179.99918538626"/>
         <configuration name="wheel" id="1"/>
@@ -348,7 +348,7 @@
             <action name="turnOn" identifier="data/vehicles/kuhn/venta4030/venta4030.xml" lastDirection="-1"/>
         </actionController>
     </vehicle>
-    <vehicle filename="data/vehicles/kuhn/venta4030/venta4030.xml" id="13" isAbsolute="true" age="0.000000" price="25000.000000" farmId="1" propertyState="1" operatingTime="0.000000">
+    <vehicle filename="data/vehicles/kuhn/venta4030/venta4030.xml" id="13" isAbsolute="true" age="0.000000" price="25000.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="0.000000">
         <component index="1" position="956.65002441406 60.145671844482 942.83740234375" rotation="-179.32490911139 -0.012952595818466 179.99944493344"/>
         <configuration name="fillVolume" id="1"/>
         <configuration name="cover" id="1"/>
@@ -373,7 +373,7 @@
         <cover state="0"/>
         <sowingMachine selectedSeedFruitType="WHEAT"/>
     </vehicle>
-    <vehicle filename="data/vehicles/kuhn/tf1512/tf1512.xml" id="14" isAbsolute="true" age="0.000000" price="18500.000000" farmId="1" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+    <vehicle filename="data/vehicles/kuhn/tf1512/tf1512.xml" id="14" isAbsolute="true" age="0.000000" price="18500.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="952.89996337891 59.982570648193 942.35626220703" rotation="-177.58390755233 -0.00022200115834525 -179.99859798999"/>
         <configuration name="cover" id="1"/>
         <configuration name="wheel" id="LIZARD_DEFAULT"/>
@@ -401,7 +401,7 @@
         </fillUnit>
         <cover state="0"/>
     </vehicle>
-    <vehicle filename="data/vehicles/berthoud/vantage4300/vantage4300.xml" id="15" isAbsolute="true" age="0.000000" price="65000.000000" farmId="1" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+    <vehicle filename="data/vehicles/berthoud/vantage4300/vantage4300.xml" id="15" isAbsolute="true" age="0.000000" price="65000.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="949.50024414063 60.214130401611 942.75634765625" rotation="-178.77507888321 0.0001490546838149 179.95592296805"/>
         <configuration name="fillUnit" id="1"/>
         <configuration name="folding" id="1"/>
@@ -436,7 +436,7 @@
             <action name="turnOn" identifier="data/vehicles/berthoud/vantage4300/vantage4300.xml" lastDirection="-1"/>
         </actionController>
     </vehicle>
-    <vehicle filename="data/vehicles/amazone/zats3200/zats3200.xml" id="16" isAbsolute="true" age="0.000000" price="25000.000000" farmId="1" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+    <vehicle filename="data/vehicles/amazone/zats3200/zats3200.xml" id="16" isAbsolute="true" age="0.000000" price="25000.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="945.65008544922 60.004219055176 942.75604248047" rotation="179.99986840517 0.00026736119230057 179.99995036744"/>
         <configuration name="cover" id="1"/>
         <configuration name="fillUnit" id="1"/>
