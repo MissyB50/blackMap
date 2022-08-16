@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeables>
+<placeable mapBoundId="sellingStationGrainLiquid" filename="$mapdir$/maps/placeables/grainSellingL.xml" position="898.356 60.401 950.655" rotation="0 90 0" />
+<placeable mapBoundId="sellingStationGrain" filename="$mapdir$/maps/placeables/grainSellingDS.xml" position="919.258 60.004 1002.03" rotation="0 90 0" />
+<placeable mapBoundId="sellingStationGrainAnimal" filename="$mapdir$/maps/placeables/grainSellingAD.xml" position="-996.895 78.556 982.067" rotation="0 0 -1.026" />
+<placeable mapBoundId="sellingStationLime" filename="$mapdir$/maps/placeables/limeCrusher.xml" position="808.337 60.01 966.299" rotation="0 -90 0" />
+<placeable mapBoundId="bga" filename="$mapdir$/maps/placeables/bga.xml" position="836.894 60 973.813" rotation="0 0 0" />
+<placeable mapBoundId="waterTriggers" filename="$mapdir$/maps/placeables/waterFillTriggers.xml" position="0 0 0" rotation="0 0 0" />
+<placeable mapBoundId="sellingStationVehicles" filename="$mapdir$/maps/placeables/sellingStationVehicles.xml" position="989 60.1 980.4" rotation="0 -90 0" />
+
+</placeables>

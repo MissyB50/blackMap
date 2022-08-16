@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicles>
+<!-- 
+    <vehicle filename="data/vehicles/deutzFahr/topLiner4090/topLiner4090.xml"           farmId="1" propertyState="1" xPosition="693" yOffset="0.5" zPosition="504" yRotation="-90" defaultFarmProperty="true" tourId="tourCombine" >
+        <licensePlates characters="DR-161-JV"/>
+    </vehicle>
+    <vehicle filename="data/vehicles/deutzFahr/header4090/header4090.xml"               farmId="1" propertyState="1" xPosition="688" yOffset="0.5" zPosition="504" yRotation="-90" defaultFarmProperty="true" />
+
+    <vehicle filename="data/vehicles/deutzFahr/header4090Trailer/header4090Trailer.xml" farmId="1" propertyState="1" xPosition="598" yOffset="0.5" zPosition="435" yRotation="90" defaultFarmProperty="true" >
+        <licensePlates characters="GY-120-OC"/>
+    </vehicle>
+
+    <vehicle filename="data/vehicles/tenwinkel/weight750/weight750.xml"                 farmId="1" propertyState="1" xPosition="698" yOffset="0.5" zPosition="421" yRotation="90" defaultFarmProperty="true"   tourId="tourWeight1" />
+    <vehicle filename="data/vehicles/masseyFerguson/series3670/series3670.xml"          farmId="1" propertyState="1" xPosition="694.5" yOffset="0.5" zPosition="421" yRotation="90" defaultFarmProperty="true" tourId="tourTractor1" >
+        <licensePlates characters="BK-801-YE"/>
+    </vehicle>
+    <vehicle filename="data/vehicles/rabe/eg39/eg39.xml"                                farmId="1" propertyState="1" xPosition="690.5" yOffset="0.5" zPosition="421" yRotation="90" defaultFarmProperty="true" tourId="tourCultivator"/>
+
+    <vehicle filename="data/vehicles/valtra/series8750/series8750.xml"                  farmId="1" propertyState="1" xPosition="841.5" yOffset="0.5" zPosition="503" yRotation="-90" defaultFarmProperty="true"   tourId="tourTractor2" >
+        <licensePlates characters="AG-181-AR"/>
+    </vehicle>
+    <vehicle filename="data/vehicles/tenwinkel/weight750/weight750.xml"                 farmId="1" propertyState="1" xPosition="838.5" yOffset="0.5" zPosition="503" yRotation="-90" defaultFarmProperty="true"   tourId="tourWeight2" />
+    <vehicle filename="data/vehicles/nordsten/ns3030/ns3030.xml"                        farmId="1" propertyState="1" xPosition="846" yOffset="0.5" zPosition="503" yRotation="-90" defaultFarmProperty="true"   tourId="tourSowingMachine" >
+        <fillUnit>
+            <unit index="1" fillType="SEEDS" fillLevel="600.000000"/>
+        </fillUnit>
+    </vehicle>
+    <vehicle filename="data/vehicles/steyr/series8150/series8150.xml"                   farmId="1" propertyState="1" xPosition="606" yOffset="0.5" zPosition="429" yRotation="90" defaultFarmProperty="true"   tourId="tourTractor3">
+        <licensePlates characters="AY-670-KJ"/>
+    </vehicle>
+    <vehicle filename="data/vehicles/welger/dk115/dk115.xml"                            farmId="1" propertyState="1" xPosition="599" yOffset="0.5" zPosition="429" yRotation="90" defaultFarmProperty="true"   tourId="tourTrailer">
+        <licensePlates characters="PJ-008-NR"/>
+    </vehicle>
+
+    <vehicle filename="data/vehicles/lizard/pickup2017/pickup2017.xml"                  farmId="1" propertyState="1" xPosition="677.5" yOffset="0.5" zPosition="425.5" yRotation="180" defaultFarmProperty="true">
+        <configuration name="baseMaterial" id="6"/>
+        <boughtConfiguration name="baseMaterial" id="6"/>
+        <licensePlates characters="BT-867-AM"/>
+    </vehicle> -->
+</vehicles>

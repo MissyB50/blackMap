@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Mod Map FR" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="$data/sounds/maps/shared/details/industryAmbience01.wav"/>
+    <File fileId="2" filename="$data/sounds/maps/shared/details/industryAmbience02.wav"/>
+    <File fileId="3" filename="$data/sounds/maps/shared/details/industryAmbience03.wav"/>
+    <File fileId="6" filename="$data/sounds/maps/shared/environment/rainOnMetal01.wav"/>
+    <File fileId="4" filename="$data/sounds/maps/shared/fauna/frog1.wav"/>
+    <File fileId="5" filename="$data/sounds/maps/shared/fauna/frog2.wav"/>
+    <File fileId="9" filename="sounds/biogas_loop.ogg"/>
+    <File fileId="7" filename="sounds/biogas_plant_loop_01.ogg"/>
+    <File fileId="8" filename="sounds/biogas_plant_rotating_01.ogg"/>
+    <File fileId="10" filename="sounds/lake_1.wav"/>
+  </Files>
+
+
+  <Materials>
+  </Materials>
+
+
+  <Shapes>
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="audio_group" nodeId="15933">
+        <TransformGroup name="details" nodeId="15934">
+          <TransformGroup name="industrial" nodeId="15935">
+            <AudioSource name="industryAmbience01" translation="874.509 60.0002 959.329" rotation="-16.875 -0.0870125 -89.9737" nodeId="15936" fileIds="1" range="60" innerRange="20" volume="1" loops="0" audioGroup="ENVIRONMENT"/>
+            <AudioSource name="industryAmbience02" translation="842.756 58.4671 965.059" rotation="-0.301984 -0 0.571546" nodeId="15938" fileIds="2" range="50" innerRange="25" volume="1" loops="0" audioGroup="ENVIRONMENT"/>
+            <AudioSource name="industryAmbience04" translation="954.201 60 972.255" nodeId="15940" fileIds="3" range="50" innerRange="12" volume="1" loops="0" audioGroup="ENVIRONMENT"/>
+          </TransformGroup>
+          <TransformGroup name="nature" nodeId="15942">
+            <AudioSource name="frog1" translation="90.797 60.2742 1010.81" rotation="-180 3.88641 -180" nodeId="15943" fileIds="4" range="40" innerRange="5" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityRequiredMask="1" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="frog2" translation="109.794 54.5583 897.522" nodeId="15945" fileIds="5" range="50" innerRange="5" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="frog3" translation="-52.2835 59.5718 751.16" rotation="173 -21.5455 -171.09" nodeId="15947" fileIds="4" range="50" innerRange="5" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="frog4" translation="-85.9791 60.5114 671.905" rotation="6.50855 -0 6.32797" nodeId="15949" fileIds="5" range="60" innerRange="5" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="frog5" translation="-43.9524 61.2097 652.132" nodeId="15951" fileIds="5" range="40" innerRange="5" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="frog6" translation="63.0199 61.6477 309.688" rotation="6.50855 -0 6.32797" nodeId="15953" fileIds="4" range="40" innerRange="5" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="frog7" translation="68.6097 58.9467 90.9134" rotation="-1.00223 0.442855 2.44318" nodeId="15955" fileIds="4" range="40" innerRange="5" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="frog8" translation="205.236 60.4357 -13.9611" nodeId="15957" fileIds="5" range="40" innerRange="5" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="frog9" translation="563.535 57.6626 -242.399" rotation="6.50855 -0 6.32797" nodeId="15959" fileIds="4" range="50" innerRange="5" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="frog10" translation="710.441 58.2562 -245.521" rotation="-6.75815 -35.2998 9.5399" nodeId="15961" fileIds="4" range="40" innerRange="5" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="frog11" translation="792.782 57.9961 -328.559" rotation="-0.184683 16.3771 -4.34262" nodeId="15963" fileIds="5" range="40" innerRange="5" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="frog12" translation="1016.72 83.8988 -361.499" rotation="-31.1743 -6.50285 93.9197" nodeId="15965" fileIds="4" range="50" innerRange="5" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="rainMetal1" translation="648.785 60 -128.495" rotation="-0.0023667 -8.8298 90.0004" nodeId="15967" fileIds="6" range="15" innerRange="8" volume="1" loops="0" audioGroup="ENVIRONMENT" weatherRequiredMask="2" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="rainMetal2" translation="614.743 60 -278.188" rotation="-16.0282 -0.0225377 0.130041" nodeId="15969" fileIds="6" range="15" innerRange="7" volume="1" loops="0" audioGroup="ENVIRONMENT" weatherRequiredMask="2" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="rainMetal3" translation="669.949 59.9866 -710.906" rotation="-0.230305 -10.5167 -40.0476" nodeId="15971" fileIds="6" range="15" innerRange="10" volume="1" loops="0" audioGroup="ENVIRONMENT" weatherRequiredMask="2" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="rainMetal4" translation="714.205 61.5837 -685.521" rotation="-8.57113 -7.46141 57.4535" nodeId="15973" fileIds="6" range="15" innerRange="8" volume="1" loops="0" audioGroup="ENVIRONMENT" weatherRequiredMask="2" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="rainMetal5" translation="719.781 59.9961 -724.575" rotation="55.0189 1.27673 -88.1761" nodeId="15975" fileIds="6" range="15" innerRange="10" volume="1" loops="0" audioGroup="ENVIRONMENT" weatherRequiredMask="2" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="rainMetal6" translation="736.582 60.6039 -771.823" rotation="4.15701 -53.3025 -17.4854" nodeId="15977" fileIds="6" range="60" innerRange="30" volume="1" loops="0" audioGroup="ENVIRONMENT" weatherRequiredMask="2" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="rainMetal7" translation="769.208 60.0486 -756.373" rotation="3.01408 -55.5394 5.79012" nodeId="15979" fileIds="6" range="50" innerRange="30" volume="0.8" loops="0" audioGroup="ENVIRONMENT" weatherRequiredMask="2" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="rainMetal8" translation="780.717 57.6142 -680.677" rotation="67.6292 -81.1948 -63.565" nodeId="15981" fileIds="6" range="50" innerRange="30" volume="0.8" loops="0" audioGroup="ENVIRONMENT" weatherRequiredMask="2" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="rainMetal9" translation="-914.774 75 11.2846" rotation="67.6292 -81.1947 -63.565" nodeId="15983" fileIds="6" range="50" innerRange="30" volume="0.8" loops="0" audioGroup="ENVIRONMENT" weatherRequiredMask="2" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="rainMetal10" translation="-477.44 61.93 492.037" rotation="67.6292 -81.1947 -63.565" nodeId="15985" fileIds="6" range="50" innerRange="30" volume="0.8" loops="0" audioGroup="ENVIRONMENT" weatherRequiredMask="2" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="rainMetal11" translation="-450.775 61.9265 629.764" rotation="67.6292 -81.1947 -63.565" nodeId="15987" fileIds="6" range="50" innerRange="30" volume="0.8" loops="0" audioGroup="ENVIRONMENT" weatherRequiredMask="2" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="rainMetal12" translation="-555.31 61.9144 680.928" rotation="67.6292 -81.1947 -63.565" nodeId="15989" fileIds="6" range="50" innerRange="30" volume="0.8" loops="0" audioGroup="ENVIRONMENT" weatherRequiredMask="2" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="rainMetal13" translation="-537.044 61.9066 602.88" rotation="67.6292 -81.1947 -63.565" nodeId="15991" fileIds="6" range="50" innerRange="30" volume="0.8" loops="0" audioGroup="ENVIRONMENT" weatherRequiredMask="2" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="rainMetal14" translation="-527.783 60.0406 1000.38" rotation="67.6292 -81.1947 -63.565" nodeId="15993" fileIds="6" range="50" innerRange="30" volume="0.8" loops="0" audioGroup="ENVIRONMENT" weatherRequiredMask="2" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="rainMetal15" translation="-558.2 60 935.133" rotation="86.2506 -8.07685 -175.41" nodeId="15995" fileIds="6" range="50" innerRange="30" volume="0.8" loops="0" audioGroup="ENVIRONMENT" weatherRequiredMask="2" viewerSpacialityPreventMask="5"/>
+            <AudioSource name="rainMetal16" translation="-673.674 59.1759 1001.54" rotation="-25.5574 -81.1947 -63.565" nodeId="15997" fileIds="6" range="50" innerRange="30" volume="0.8" loops="0" audioGroup="ENVIRONMENT" weatherRequiredMask="2" viewerSpacialityPreventMask="5"/>
+          </TransformGroup>
+          <TransformGroup name="biogas_plant" nodeId="16033">
+            <AudioSource name="biogas_plant_loop_01" translation="847.457 60.1943 981.054" nodeId="16034" fileIds="7" range="65" innerRange="15" volume="0.7" loops="0" audioGroup="ENVIRONMENT" color="1 0 1"/>
+            <AudioSource name="biogas_plant_rotating_01" translation="847.157 63.4649 944.428" nodeId="16036" fileIds="8" range="40" innerRange="15" volume="1" loops="0" audioGroup="ENVIRONMENT" color="1 0 1"/>
+            <AudioSource name="biogas_loop" translation="842.315 60.01 980.24" rotation="-180 -48.664 -180" nodeId="16038" fileIds="9" range="50" innerRange="25" volume="0.5" loops="0" audioGroup="ENVIRONMENT" color="1 0 1"/>
+          </TransformGroup>
+          <TransformGroup name="environment" nodeId="16040">
+            <AudioSource name="lake_1" translation="98.6221 58.1881 950.239" nodeId="16120" fileIds="10" range="60" innerRange="30" volume="0.6" loops="0"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+  </Scene>
+
+</i3D>

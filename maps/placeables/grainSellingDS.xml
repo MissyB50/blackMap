@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="sellingStation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/placeable.xsd">
+ <storeData>
+  <name>Grain Selling DS</name>
+  <image>$data/store/store_empty.png</image>
+  <price>1</price>
+  <canBeSold>false</canBeSold>
+  <showInStore>false</showInStore>
+  <lifetime>1000</lifetime>
+  <rotation>0</rotation>
+  <brand>NONE</brand>
+  <species>placeable</species>
+  <category>placeableMisc</category>
+ </storeData>
+
+ <base>
+  <filename>maps/placeables/grainSellingDS.i3d</filename>
+ </base>
+
+ <placement />
+
+ <clearAreas></clearAreas>
+
+ <leveling></leveling>
+
+ <indoorAreas></indoorAreas>
+
+ <ai>
+  <updateAreas>
+   <updateArea startNode="tipOcclusionUpdateArea1Start" endNode="tipOcclusionUpdateArea1End" />
+  </updateAreas>
+  <splines>
+   <spline node="aiSplineGrain" />
+  </splines>
+ </ai>
+
+ <tipOcclusionUpdateAreas>
+  <tipOcclusionUpdateArea startNode="tipOcclusionUpdateArea1Start" endNode="tipOcclusionUpdateArea1End" />
+ </tipOcclusionUpdateAreas>
+
+ <hotspots>
+  <hotspot type="UNLOADING" teleportNode="teleportNode" />
+ </hotspots>
+
+  <triggerMarkers>
+  <triggerMarker node="unloadTriggerGrainMarker"    filename="$data/shared/assets/marker/markerIcons.xml" id="UNLOAD" adjustToGround="false" />
+  <triggerMarker node="woodActivationTriggerMarker"		filename="$data/shared/assets/marker/markerIcons.xml" id="EXCLAMATION_MARK" adjustToGround="false" />
+ </triggerMarkers>
+
+ <sellingStation node="sellingStation" supportsExtension="false" litersForFullPriceDrop="200000" fullPriceRecoverHours="48">
+ 
+  <unloadTrigger exactFillRootNode="unloadTriggerGrain" aiNode="aiNodeGrain" fillTypes="WHEAT BARLEY CANOLA SUNFLOWER SOYBEAN MAIZE POTATO SUGARBEET SUGARBEET_CUT SUGARCANE OAT SORGHUM WOODCHIPS MILK ROADSALT STONE FLOUR BREAD CAKE BUTTER CHEESE FABRIC HONEY SUGAR CLOTHES CEREAL SUNFLOWER_OIL CANOLA_OIL OLIVE_OIL GRAPE OLIVE RAISINS GRAPEJUICE CHOCOLATE FURNITURE BOARDS STRAWBERRY LETTUCE TOMATO EGG WOOL COTTON SILAGE STRAW GRASS_WINDROW DRYGRASS_WINDROW WOOD WOODCHIPS" >
+  
+   <baleTrigger triggerNode="baleTrigger" deleteLitersPerSecond="10000" />
+   <woodTrigger triggerNode="woodTrigger" activationTriggerNode="woodActivationTrigger" />
+  </unloadTrigger>
+  
+   <fillType name="FLOUR"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="BREAD"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="CAKE"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="BUTTER"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="CHEESE"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="FABRIC"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="HONEY"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="SUGAR"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="CLOTHES"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="CEREAL"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="SUNFLOWER_OIL"		priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="CANOLA_OIL"			priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="OLIVE_OIL"			priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="GRAPE"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="OLIVE"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="RAISINS"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="GRAPEJUICE"			priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="CHOCOLATE"			priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="FURNITURE"			priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="STRAWBERRY"			priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="LETTUCE"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="TOMATO"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="EGG"					priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="WOOL"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="COTTON"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="SILAGE"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="STRAW"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="GRASS_WINDROW"		priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="DRYGRASS_WINDROW"	priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="WOODCHIPS"			priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="WHEAT"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="BARLEY"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="CANOLA"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="SUNFLOWER"			priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="SOYBEAN"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="MAIZE"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="POTATO"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="SUGARBEET"			priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="SUGARCANE"			priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="OAT"					priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="SORGHUM"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="MILK"				priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+   <fillType name="ROADSALT"			priceScale="0.1"	supportsGreatDemand="false"		disablePriceDrop="false" />
+   <fillType name="BOARDS"				priceScale="1"		supportsGreatDemand="false"		disablePriceDrop="false" />
+   <fillType name="STONE"				priceScale="1"		supportsGreatDemand="false"		disablePriceDrop="false" />
+   <fillType name="WOOD"				priceScale="1"		supportsGreatDemand="false"		disablePriceDrop="false" />
+ </sellingStation>
+
+  
+ <i3dMappings>
+  <i3dMapping id="unloadingStation" node="0>" />
+  <i3dMapping id="tipOcclusionUpdateArea1Start" node="0>0|0" />
+  <i3dMapping id="tipOcclusionUpdateArea1End" node="0>0|0|0" />
+  <i3dMapping id="unloadTriggerGrain" node="0>1" />
+  <i3dMapping id="unloadTriggerGrainMarker" node="0>1|0" />
+  <i3dMapping id="baleTrigger" node="0>2" />
+  <i3dMapping id="woodTrigger" node="0>4" />
+  <i3dMapping id="woodActivationTrigger" node="0>5" />
+  <i3dMapping id="woodActivationTriggerMarker" node="0>5|0" />
+  <i3dMapping id="teleportNode" node="0>6" />
+  <i3dMapping id="aiNodeGrain" node="0>7" />
+  <i3dMapping id="aiSplineGrain" node="0>8" />
+ </i3dMappings>
+
+</placeable>
