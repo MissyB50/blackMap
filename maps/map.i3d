@@ -908,7 +908,7 @@
   </Dynamics>
 
   <Scene>
-      <Camera name="persp" translation="185.927 131.204 890.947" rotation="155.547 58.0298 -180" visibility="false" nodeId="440" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="20"/>
+      <Camera name="persp" translation="84.045 75.724 977.631" rotation="169.069 -88.4139 -180" visibility="false" nodeId="440" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="20"/>
       <Light name="sun" translation="0 400 0" rotation="-35.393 51.396 20.805" objectMask="67043328" nodeId="441" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="2048" shadowFarDistance="1000" shadowExtrusionDistance="200" pcssLightSize="50" pcssLightDistance="50" pcssDepthBiasFactor="1" pcssMaxPenumbraSize="1" shadowPerspective="true" numShadowMapSplits="5" shadowMapSplitDistance0="20.7462" shadowMapSplitDistance1="46.4883" shadowMapSplitDistance2="120" shadowMapSplitDistance3="314" lastShadowMapSplitBboxMin="-1024,-128,-1024" lastShadowMapSplitBboxMax="1024,148,1024" range="10000" scattering="true"/>
       <TerrainTransformGroup name="terrain" static="true" collisionMask="524255" nodeId="443" heightMapId="1" patchSize="65" maxLODDistance="750" heightScale="255" unitsPerPixel="2" lodBlendStart="200" lodBlendEnd="300" lodTextureSize="2048" lodBlendStartDynamic="50" lodBlendEndDynamic="65" detailLodBlendDelta="5" materialId="86" castShadowMap="true" occLevel="1" occFaceCount="100" occMaxHausdorffDistance="10" occMaxHausdorffDistanceExtra="10" occMinHorizontalDistance="1" occDistanceWeight="1">
         <Layers>
