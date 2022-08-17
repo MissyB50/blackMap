@@ -3,13 +3,14 @@
     <author>MISSYB, Volcan</author>
     <version>1.0.0.0</version>
     <title>
-        <en>Avan Valley</en>
+        <en>Avon Valley</en>
         <de></de>
     </title>
     <description>
-        <en><![CDATA[My Mod Description]]></en>
-        <de><![CDATA[Dies ist die Beispiel Mod Map FR.]]></de>
+        <en><![CDATA[Welcome to Avon Valley, this tranqual map is perfect if you want no fuss, no hasssel to create your own map, it has the basic needs to get started, a shop, BGA and anmial dealer. There is three sell points inclueded, bales, liquids and grain/production produce. Those that want a start from scracth i have inmcliuded a small forset fopr you to use to getr started.]]></en>
+        <de><![CDATA[]]></de>
     </description>
+	
     <iconFilename>icon.png</iconFilename>
     <multiplayer supported="true"/>
     <maps>
@@ -19,8 +20,10 @@
                 <de></de>
             </title>
             <description>
-                <en>This is the sample mod map FR.</en>
-                <de>Dies ist die Beispiel Mod Map FR.</de>
+                <en>Blank map with the minimum you need to get started and a small forest.
+				Custom made BGA
+				Custom made lime production</en>
+                <de></de>
             </description>
             <iconFilename>preview.png</iconFilename>
         </map>
