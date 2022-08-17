@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="67">
-    <author>ashwa</author>
+    <author>missyB</author>
     <version>1.0.0.0</version>
     <title>
-        <en>test map</en>
-        <de>test map</de>
+        <en>Avan Valley</en>
+        <de></de>
     </title>
     <description>
         <en><![CDATA[My Mod Description]]></en>
@@ -15,8 +15,8 @@
     <maps>
         <map id="SampleModMap" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/map.xml" defaultVehiclesXMLFilename="maps/vehicles.xml" defaultPlaceablesXMLFilename="maps/placeables.xml" defaultItemsXMLFilename="maps/items.xml">
             <title>
-                <en>Mod Map FR</en>
-                <de>Mod Map FR</de>
+                <en>Avon Valley</en>
+                <de></de>
             </title>
             <description>
                 <en>This is the sample mod map FR.</en>
