@@ -3,9 +3,10 @@
     <storeData>
         <name>$l10n_storeItem_planET_bga1mw</name>
         <functions>
+			<function>$l10n_function_productionPoint</function>
         </functions>
         <image></image>
-        <price>50000</price>
+        <price>20000</price>
         <canBeSold>true</canBeSold>
         <showInStore>false</showInStore>
         <lifetime>1000</lifetime>
@@ -73,8 +74,8 @@
                     <input fillType="SILAGE" amount="8484" />
                 </inputs>
                 <outputs>
-                    <output fillType="ELECTRICCHARGE" amount="1"    sellDirectly="true"/>
-                    <output fillType="METHANE"        amount="5884" sellDirectly="true"/>
+                    <output fillType="ELECTRICCHARGE" amount="10"    sellDirectly="true"/>
+                    <output fillType="METHANE"        amount="5884"/>
                     <output fillType="DIGESTATE"      amount="2545" />
                 </outputs>
             </production>
@@ -83,8 +84,8 @@
                     <input fillType="LIQUIDMANURE" amount="2020" />
                 </inputs>
                 <outputs>
-                    <output fillType="ELECTRICCHARGE" amount="1" sellDirectly="true"/>
-                    <output fillType="METHANE"        amount="1452" sellDirectly="true"/>
+                    <output fillType="ELECTRICCHARGE" amount="10" sellDirectly="true"/>
+                    <output fillType="METHANE"        amount="1452"/>
                     <output fillType="DIGESTATE"      amount="606" />
                 </outputs>
             </production>
@@ -93,8 +94,8 @@
                     <input fillType="MANURE" amount="2020" />
                 </inputs>
                 <outputs>
-                    <output fillType="ELECTRICCHARGE" amount="1" sellDirectly="true"/>
-                    <output fillType="METHANE"        amount="1452" sellDirectly="true"/>
+                    <output fillType="ELECTRICCHARGE" amount="10" sellDirectly="true"/>
+                    <output fillType="METHANE"        amount="1452"/>
                     <output fillType="DIGESTATE"      amount="606" />
                 </outputs>
             </production>
@@ -103,31 +104,102 @@
                     <input fillType="SUGARBEET_CUT" amount="1010" />
                 </inputs>
                 <outputs>
-                    <output fillType="ELECTRICCHARGE" amount="1"  sellDirectly="true"/>
-                    <output fillType="METHANE"        amount="721" sellDirectly="true"/>
+                    <output fillType="ELECTRICCHARGE" amount="10"  sellDirectly="true"/>
+                    <output fillType="METHANE"        amount="721"/>
                     <output fillType="DIGESTATE"      amount="303" />
                 </outputs>
             </production>
-        </productions>
+        
+		
+		<production id="biogasSugarbeet" name="$l10n_fillType_sugarBeet" cyclesPerHour="1" costsPerActiveHour="25.25">
+                <inputs>
+                    <input fillType="SUGARBEET" amount="2532" />
+                </inputs>
+                <outputs>
+                    <output fillType="ELECTRICCHARGE" amount="10" sellDirectly="true"/>
+                    <output fillType="METHANE"        amount="250" />
+                    <output fillType="DIGESTATE"      amount="400" />
+                </outputs>
+            </production>			
+ 
+			<production id="biogasPotato" name="$l10n_fillType_potato" cyclesPerHour="1" costsPerActiveHour="25.25">
+                <inputs>
+                    <input fillType="POTATO" amount="2530" />
+                </inputs>
+                <outputs>
+                    <output fillType="ELECTRICCHARGE" amount="10" sellDirectly="true"/>
+                    <output fillType="METHANE"        amount="100"  />
+                    <output fillType="DIGESTATE"      amount="200" />
+                </outputs>
+            </production>	
+			
+            <production id="biogasStraw" name="$l10n_fillType_straw" cyclesPerHour="1" costsPerActiveHour="25.25">
+                <inputs>
+                    <input fillType="STRAW" amount="1680" />
+                </inputs>
+                <outputs>
+                    <output fillType="ELECTRICCHARGE" amount="10" sellDirectly="true"/>
+                    <output fillType="METHANE"        amount="250"   />
+                    <output fillType="DIGESTATE"      amount="350" />
+                </outputs>
+            </production>
+			<production id="biogasHay" name="$l10n_fillType_dryGrass" cyclesPerHour="1" costsPerActiveHour="25.25">
+                <inputs>
+                    <input fillType="DRYGRASS_WINDROW" amount="2000" />
+                </inputs>
+                <outputs>
+                    <output fillType="ELECTRICCHARGE" amount="10" sellDirectly="true"/>
+                    <output fillType="METHANE"        amount="1500"   />
+                    <output fillType="DIGESTATE"      amount="600" />
+                </outputs>
+            </production>
+			<production id="biogasGrass" name="$l10n_fillType_grass" cyclesPerHour="1" costsPerActiveHour="25.25">
+                <inputs>
+                    <input fillType="GRASS_WINDROW" amount="2000" />
+                </inputs>
+                <outputs>
+                    <output fillType="ELECTRICCHARGE" amount="10" sellDirectly="true"/>
+                    <output fillType="METHANE"        amount="1500"   />
+                    <output fillType="DIGESTATE"      amount="600" />
+                </outputs>
+            </production>
+			<production id="biogasCHAFF" name="$l10n_fillType_chaff" cyclesPerHour="1" costsPerActiveHour="25.25">
+                <inputs>
+                    <input fillType="CHAFF" amount="4000" />
+                </inputs>
+                <outputs>
+                    <output fillType="ELECTRICCHARGE" amount="50" sellDirectly="true"/>
+                    <output fillType="METHANE"        amount="3500"   />
+                    <output fillType="DIGESTATE"      amount="1500" />
+                </outputs>
+            </production>
+		</productions>
 
         <sellingStation node="sellingStation" appearsOnStats="true" supportsExtension="true">
-            <unloadTrigger exactFillRootNode="unloadTriggerBunker1top" fillTypes="SILAGE MANURE SUGARBEET_CUT" />
-            <unloadTrigger fillTypes="SILAGE">
+            <unloadTrigger exactFillRootNode="unloadTriggerBunker1top" fillTypes="SILAGE MANURE SUGARBEET_CUT SUGARBEET POTATO STRAW DRYGRASS_WINDROW GRASS_WINDROW CHAFF"/>
+            <unloadTrigger fillTypes="SILAGE STRAW DRYGRASS_WINDROW GRASS_WINDROW">
                 <baleTrigger triggerNode="baleTriggerBunker1" />
             </unloadTrigger>
             <unloadTrigger exactFillRootNode="unloadTriggerLiquidManure" fillTypes="LIQUIDMANURE" aiNode="unloadTriggerLiquidManureAINode"/>
         </sellingStation>
 
         <loadingStation>
-            <loadTrigger triggerNode="loadTrigger" fillTypes="DIGESTATE" aiNode="loadTriggerAiNode"/>
+            <loadTrigger triggerNode="loadTrigger" fillTypes="DIGESTATE METHANE" aiNode="loadTriggerAiNode"/>
         </loadingStation>
 
         <storage isExtension="false" fillLevelSyncThreshold="100">
-            <capacity fillType="SILAGE"        capacity="500000" />
-            <capacity fillType="MANURE"        capacity="500000" />
-            <capacity fillType="SUGARBEET_CUT" capacity="250000" />
+            <capacity fillType="CHAFF"        capacity="1000000" />
+			<capacity fillType="SILAGE"        capacity="1000000" />
+			<capacity fillType="DRYGRASS_WINDROW" capacity="1000000"/>
+			<capacity fillType="GRASS_WINDROW" capacity="1000000"/>
+			<capacity fillType="SUGARBEET"     capacity="1000000" />
+			<capacity fillType="POTATO"     capacity="1000000" />
+			<capacity fillType="STRAW"     capacity="1000000" />
+            <capacity fillType="MANURE"        capacity="1000000" />
+            <capacity fillType="SUGARBEET_CUT" capacity="25000000" />
             <capacity fillType="LIQUIDMANURE"  capacity="350000" />
             <capacity fillType="DIGESTATE"     capacity="8000000" />
+			<capacity fillType="METHANE"     capacity="80000000" />
         </storage>
 
         <playerTrigger node="playerTrigger" />

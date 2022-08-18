@@ -89,7 +89,7 @@
         <TransformGroup name="teleportNode" translation="3 0 -7" nodeId="51"/>
         <TransformGroup name="productionPoint" nodeId="52">
           <Shape shapeId="12" name="playerTrigger" translation="23.302 0 -3.88232" static="true" trigger="true" collisionMask="3145728" clipDistance="600" nodeId="53" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true">
-            <TransformGroup name="playerTriggerMarker" nodeId="54"/>
+            <TransformGroup name="playerTriggerMarker" translation="-5.44786 0 2.18892" nodeId="54"/>
           </Shape>
         </TransformGroup>
         <Shape shapeId="13" name="infoTrigger" translation="4.45828 4.58252 -2.52825" scale="0.809918 1 0.757569" static="true" trigger="true" collisionMask="1048576" clipDistance="300" nodeId="55" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
