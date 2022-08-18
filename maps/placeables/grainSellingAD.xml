@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <placeable type="sellingStation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/placeable.xsd">
  <storeData>
-  <name>grain Selling AD</name>
+  <name>$l10n_shopItem_GSAD</name>
   <image>$data/store/store_empty.png</image>
   <price>1</price>
   <canBeSold>false</canBeSold>
