@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="67">
-    <author>MISSYB, Volcan</author>
+    <author>MISSYB, Volcan95</author>
     <version>1.0.0.0</version>
     <title>
         <en>Avon Valley</en>
-        <de></de>
+        <de>Avon-Tal</de>
     </title>
     <description>
         <en><![CDATA[Welcome to Avon Valley. This is empty wilderness is set in the uk. 
@@ -12,7 +12,11 @@ Build your own farm and turn this great expanse back to its former glory. There 
 There are collectables on this map. Three selling points for bales, liquids and base game crops/produce. There is a custom build bga with a selling point for methane. 
 There is a small forest to get you started with. Custom build UK GEO.  
 1 predefined grass field to get you started.]]></en>
-        <de><![CDATA[]]></de>
+        <de><![CDATA[Willkommen im Avon Valley. Diese leere Wildnis befindet sich in Großbritannien. 
+Bauen Sie Ihren eigenen Bauernhof und verwandeln Sie diese große Fläche zurück in ihren früheren Glanz. Es gibt einen künstlich angelegten Teich, an dem man sich am Ende des Tages entspannen kann, 
+Auf dieser Karte gibt es Sammelobjekte. Es gibt drei Verkaufsstellen für Ballen, Flüssigkeiten und Grundspielkulturen. Es gibt eine selbstgebaute BGA mit einer Verkaufsstelle für Methan. 
+Es gibt einen kleinen Wald, mit dem man anfangen kann. Benutzerdefiniertes UK GEO.
+1 vordefiniertes Grasfeld für den Einstieg.]]></de>
     </description>
 	
     <iconFilename>icon.png</iconFilename>
@@ -25,7 +29,7 @@ There is a small forest to get you started with. Custom build UK GEO.
             </title>
             <description>
                 <en>Blank map with the minimum you need to get started and a small forest.</en>
-                <de></de>
+                <de>Leere Karte mit dem Minimum, das Sie für den Anfang brauchen, und einem kleinen Wald</de>
             </description>
             <iconFilename>preview.png</iconFilename>
         </map>

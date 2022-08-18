@@ -38,7 +38,7 @@
     <gameplayHints filename="$dataS/gameplayHints.xml" />
 
     <precisionFarming>
-        <soilMap filename="maps/data/.grle"/>
+        <soilMap filename="maps/data/soilMap.grle"/>
     </precisionFarming>
 
 
