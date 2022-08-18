@@ -6,7 +6,7 @@
 			<function>$l10n_function_productionPoint</function>
         </functions>
         <image></image>
-        <price>20000</price>
+        <price>500000</price>
         <canBeSold>true</canBeSold>
         <showInStore>false</showInStore>
         <lifetime>1000</lifetime>
@@ -60,6 +60,7 @@
         <triggerMarker node="unloadTriggerMarker1"            filename="$data/shared/assets/marker/markerIcons.xml" id="UNLOAD" adjustToGround="false" />
         <triggerMarker node="unloadTriggerLiquidManureMarker" filename="$data/shared/assets/marker/markerIcons.xml" id="UNLOAD" adjustToGround="true" />
         <triggerMarker node="loadTriggerMarker"               filename="$data/shared/assets/marker/markerIcons.xml" id="LOAD"   adjustToGround="true" />
+        <triggerMarker node="loadTriggerMarkerM"              filename="$data/shared/assets/marker/markerIcons.xml" id="LOAD"   adjustToGround="true" />
         <triggerMarker node="playerTriggerMarker"             filename="$data/shared/assets/marker/markerIcons.xml" id="WRENCH" adjustToGround="false" />
     </triggerMarkers>
 
@@ -109,8 +110,6 @@
                     <output fillType="DIGESTATE"      amount="303" />
                 </outputs>
             </production>
-        
-		
 		<production id="biogasSugarbeet" name="$l10n_fillType_sugarBeet" cyclesPerHour="1" costsPerActiveHour="25.25">
                 <inputs>
                     <input fillType="SUGARBEET" amount="2532" />
@@ -121,7 +120,6 @@
                     <output fillType="DIGESTATE"      amount="400" />
                 </outputs>
             </production>			
- 
 			<production id="biogasPotato" name="$l10n_fillType_potato" cyclesPerHour="1" costsPerActiveHour="25.25">
                 <inputs>
                     <input fillType="POTATO" amount="2530" />
@@ -132,7 +130,6 @@
                     <output fillType="DIGESTATE"      amount="200" />
                 </outputs>
             </production>	
-			
             <production id="biogasStraw" name="$l10n_fillType_straw" cyclesPerHour="1" costsPerActiveHour="25.25">
                 <inputs>
                     <input fillType="STRAW" amount="1680" />
@@ -169,8 +166,8 @@
                 </inputs>
                 <outputs>
                     <output fillType="ELECTRICCHARGE" amount="50" sellDirectly="true"/>
-                    <output fillType="METHANE"        amount="3500"   />
-                    <output fillType="DIGESTATE"      amount="1500" />
+                    <output fillType="METHANE"        amount="2500"   />
+                    <output fillType="DIGESTATE"      amount="1450" />
                 </outputs>
             </production>
 		</productions>
@@ -184,7 +181,8 @@
         </sellingStation>
 
         <loadingStation>
-            <loadTrigger triggerNode="loadTrigger" fillTypes="DIGESTATE METHANE" aiNode="loadTriggerAiNode"/>
+            <loadTrigger triggerNode="loadTrigger" fillTypes="DIGESTATE" aiNode="loadTriggerAiNode"/>
+            <loadTrigger triggerNode="loadTriggerMethane" fillTypes="METHANE"/>
         </loadingStation>
 
         <storage isExtension="false" fillLevelSyncThreshold="100">
@@ -221,7 +219,9 @@
         <i3dMapping id="unloadingLiquidManureAISpline" node="0>1|1|2" />
         <i3dMapping id="unloadTriggerLiquidManure" node="0>1|1|3" />
         <i3dMapping id="loadTrigger" node="0>1|2|0" />
+        <i3dMapping id="loadTriggerMethane" node="0>1|2|3" />
         <i3dMapping id="loadTriggerMarker" node="0>1|2|1" />
+        <i3dMapping id="loadTriggerMarkerM" node="0>1|2|4" />
         <i3dMapping id="loadTriggerAiNode" node="0>1|2|2" />
         <i3dMapping id="playerTrigger" node="0>1|3" />
         <i3dMapping id="playerTriggerMarker" node="0>1|3|0" />

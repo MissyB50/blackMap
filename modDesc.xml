@@ -7,7 +7,11 @@
         <de></de>
     </title>
     <description>
-        <en><![CDATA[Welcome to Avon Valley, this tranqual map is perfect if you want no fuss, no hasssel to create your own map, it has the basic needs to get started, a shop, BGA and anmial dealer. There is three sell points inclueded, bales, liquids and grain/production produce. Those that want a start from scracth i have inmcliuded a small forset fopr you to use to getr started.]]></en>
+        <en><![CDATA[Welcome to Avon Valley. This is empty wilderness is set in the uk. 
+Build your own farm and turn this great expanse back to its former glory. There is a custum made pond that is great to relax by at the end of the day, 
+There are collectables on this map. Three selling points for bales, liquids and base game crops/produce. There is a custom build bga with a selling point for methane. 
+There is a small forest to get you started with. Custom build UK GEO.  
+1 predefined grass field to get you started.]]></en>
         <de><![CDATA[]]></de>
     </description>
 	
@@ -20,15 +24,12 @@
                 <de></de>
             </title>
             <description>
-                <en>Blank map with the minimum you need to get started and a small forest.
-				Custom made BGA
-				Custom made lime production</en>
+                <en>Blank map with the minimum you need to get started and a small forest.</en>
                 <de></de>
             </description>
             <iconFilename>preview.png</iconFilename>
         </map>
     </maps>
-	
 	<storeItems>
 	    <storeItem xmlFilename="maps/placeables/grainSellingAD.xml"/>
         <storeItem xmlFilename="maps/placeables/grainSellingDS.xml"/>
@@ -39,5 +40,13 @@
 		<storeItem xmlFilename="maps/placeables/waterFillTriggers.xml"/>
 		<storeItem xmlFilename="maps/vehicle/mks32.xml"/>
 		<storeItem xmlFilename="maps/vehicle/mks8.xml"/>
+        <storeItem xmlFilename="maps/placeables/gasStation.xml"/>
 	</storeItems>
+
+    <l10n>
+    	<text name="shopItem_GSAD"> <en>Grain Animal Dealer</en> <de>Getreidehändler Tier</de></text>
+    	<text name="shopItem_GSDS"> <en>Grain Selling</en> <de>Getreideverkauf</de></text>
+    	<text name="shopItem_GSL"> <en>Grain Liquid</en> <de>Getreide Flüssigkeiten</de></text>
+    	<text name="shopItem_LC"> <en>Lime Production</en> <de>Kalkproduktion</de></text>
+    </l10n>
 </modDesc>
