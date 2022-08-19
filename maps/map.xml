@@ -16,7 +16,7 @@
 
     <sounds filename="maps/sound.xml" />
     <environment filename="$data/maps/mapFR/environment.xml" />
-    <growth filename="$data/maps/maps_growth.xml" />
+    <growth filename="maps/maps_growth.xml" />
     <weed filename="$data/maps/mapFR/weed.xml" />
     <fieldGround filename="$data/maps/mapFR/fieldGround.xml" />
     <farmlands filename="maps/farmlands.xml" />
