@@ -10,7 +10,7 @@
 
 
   <Materials>
-    <Material name="UnnamedMaterial" materialId="98" diffuseColor="1 1 1 1">
+    <Material name="UnnamedMaterial" materialId="4" diffuseColor="1 1 1 1">
     </Material>
   </Materials>
 
@@ -23,14 +23,14 @@
   </Dynamics>
 
   <Scene>
-      <TransformGroup name="gasStation" nodeId="17862">
-        <Shape shapeId="1" name="gasStationTrigger" translation="1.546 2.84562 -0.24039" static="true" trigger="true" collisionMask="1075838976" nodeId="17863" materialIds="98" castsShadows="true" receiveShadows="true" nonRenderable="true" distanceBlending="false"/>
-        <TransformGroup name="mapPosition" translation="-0.5 0 0" nodeId="17864"/>
+      <TransformGroup name="gasStation" nodeId="7">
+        <Shape shapeId="1" name="gasStationTrigger" translation="1.546 2.84562 -0.24039" static="true" trigger="true" collisionMask="1075838976" nodeId="8" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true" distanceBlending="false"/>
+        <TransformGroup name="mapPosition" translation="-2 0 0" nodeId="9"/>
       </TransformGroup>
   </Scene>
 
   <UserAttributes>
-    <UserAttribute nodeId="17862">
+    <UserAttribute nodeId="7">
       <Attribute name="mapPositionIndex" type="string" value="1"/>
     </UserAttribute>
   </UserAttributes>

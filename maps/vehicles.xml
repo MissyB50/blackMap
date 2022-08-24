@@ -3,7 +3,6 @@
     <vehicle filename="data/vehicles/masseyFerguson/series3670/series3670.xml" id="1" isAbsolute="true" age="0.000000" price="99500.000000" farmId="1"  defaultFarmProperty="true" propertyState="1" operatingTime="1.757283" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="1005.6500854492 59.942226409912 942.95440673828" rotation="-179.878509604 -0.0022038492898107 -179.99891217869"/>
         <component index="2" position="1005.6499633789 60.67578125 941.28295898438" rotation="-179.87848228324 -0.0022027806136671 -179.99995036744"/>
-        <configuration name="cropSensor" id="1"/>
         <configuration name="fillUnit" id="1"/>
         <configuration name="frontloader" id="2"/>
         <configuration name="wheel" id="MICHELIN_NARROW"/>

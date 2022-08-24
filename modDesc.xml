@@ -1,22 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="67">
-    <author>MISSYB, Volcan95</author> <!--b980-->
+<modDesc descVersion="68">
+    <author>MISSYB, Volcan95</author>
     <version>1.0.0.0</version>
     <title>
         <en>Avon Valley</en>
         <de>Avon-Tal</de>
     </title>
     <description>
-        <en><![CDATA[Welcome to Avon Valley. This is empty wilderness is set in the uk. 
-Build your own farm and turn this great expanse back to its former glory. There is a custum made pond that is great to relax by at the end of the day, 
-There are collectables on this map. Three selling points for bales, liquids and base game crops/produce. There is a custom build bga with a selling point for methane. 
-There is a small forest to get you started with. Custom build UK GEO.  
-1 predefined grass field to get you started.]]></en>
-        <de><![CDATA[Willkommen im Avon Valley. Diese leere Wildnis befindet sich in Großbritannien. 
-Bauen Sie Ihren eigenen Bauernhof und verwandeln Sie diese große Fläche zurück in ihren früheren Glanz. Es gibt einen künstlich angelegten Teich, an dem man sich am Ende des Tages entspannen kann, 
-Auf dieser Karte gibt es Sammelobjekte. Es gibt drei Verkaufsstellen für Ballen, Flüssigkeiten und Grundspielkulturen. Es gibt eine selbstgebaute BGA mit einer Verkaufsstelle für Methan. 
-Es gibt einen kleinen Wald, mit dem man anfangen kann. Benutzerdefiniertes UK GEO.
-1 vordefiniertes Grasfeld für den Einstieg.]]></de>
+<en><![CDATA[Welcome to Avon Valley. This is empty wilderness is set in the uk.
+Build your own farm and turn this great expanse back to its former glory.
+There is a custum made pond that is great to relax by at the end of the day.
+
+The following are available on the map:
+- Collectibles
+- 3 selling points for bales, liquids and crops/products from the basegame
+- Custom build bga with a selling point for methane
+- Small forest that can be used for startup
+- Custom build UK GEO
+- 1 predefined grass field to get you started]]></en>
+<de><![CDATA[Willkommen im Avon Valley. Diese leere Wildnis liegt in Großbritannien.
+Bauen Sie Ihren eigenen Bauernhof und verwandeln Sie diese große Fläche zurück in ihren früheren Glanz.
+Es gibt einen künstlich angelegten Teich, an dem man sich am Ende des Tages entspannen kann.
+
+Folgendes ist auf der Map verfügbar:
+- Sammelobjekte
+- 3 Verkaufsstellen für Ballen, Flüssigkeiten und Feldfrüchte/Produkte aus dem Basegame
+- Selbst gebaute BGA mit einer Verkaufsstelle für Methan
+- Kleiner Wald, der für den Start verwendet werden kann
+- Benutzerdefiniertes UK GEO
+- 1 vordefinierte Grasfläche für den Einstieg]]></de>
     </description>
 	
     <iconFilename>icon.png</iconFilename>
@@ -25,11 +37,11 @@ Es gibt einen kleinen Wald, mit dem man anfangen kann. Benutzerdefiniertes UK GE
         <map id="SampleModMap" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/map.xml" defaultVehiclesXMLFilename="maps/vehicles.xml" defaultPlaceablesXMLFilename="maps/placeables.xml" defaultItemsXMLFilename="maps/items.xml">
             <title>
                 <en>Avon Valley</en>
-                <de></de>
+                <de>Avon-Tal</de>
             </title>
             <description>
                 <en>Blank map with the minimum you need to get started and a small forest.</en>
-                <de>Leere Karte mit dem Minimum, das Sie für den Anfang brauchen, und einem kleinen Wald</de>
+                <de>Leere Karte mit dem Minimum, welches du für den Anfang brauchst, und einem kleinen Wald.</de>
             </description>
             <iconFilename>preview.png</iconFilename>
         </map>
@@ -48,9 +60,9 @@ Es gibt einen kleinen Wald, mit dem man anfangen kann. Benutzerdefiniertes UK GE
 	</storeItems>
 
     <l10n>
-    	<text name="shopItem_GSAD"> <en>Grain Animal Dealer</en> <de>Getreidehändler Tier</de></text>
-    	<text name="shopItem_GSDS"> <en>Grain Selling</en> <de>Getreideverkauf</de></text>
-    	<text name="shopItem_GSL"> <en>Grain Liquid</en> <de>Getreide Flüssigkeiten</de></text>
-    	<text name="shopItem_LC"> <en>Lime Production</en> <de>Kalkproduktion</de></text>
+        <text name="shopItem_GSAD"> <en>Grain Animal Dealer</en> <de>Getreide-Tier-Händler</de></text>
+        <text name="shopItem_GSDS"> <en>Grain Selling</en> <de>Getreideverkauf</de></text>
+        <text name="shopItem_GSL"> <en>Grain Liquid</en> <de>Flüssigkeitsverkauf</de></text>
+        <text name="shopItem_LC"> <en>Lime Production</en> <de>Kalkproduktion</de></text>
     </l10n>
 </modDesc>

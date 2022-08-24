@@ -5,7 +5,7 @@
         <functions>
             <function>$l10n_function_sellingPoint</function>
         </functions>
-        <image>store_lime.dds</image>
+        <image>$data/store/store_empty.png</image>
         <canBeSold>false</canBeSold>
         <showInStore>false</showInStore>
         <price>50000</price>
