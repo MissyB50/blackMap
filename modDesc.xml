@@ -12,22 +12,24 @@ Build your own farm and turn this great expanse back to its former glory.
 There is a custum made pond that is great to relax by at the end of the day.
 
 The following are available on the map:
+- Collectibles
 - 3 selling points for bales, liquids and crops/products from the basegame
 - Custom build bga with a selling point for methane
 - Small forest that can be used for startup
 - Custom build UK GEO
 - 1 predefined grass field to get you started]]></en>
-<de><![CDATA[Willkommen im Avon-Tal. Diese leere Wildnis liegt in Großbritannien.
+<de><![CDATA[Willkommen im Avon Valley. Diese leere Wildnis liegt in Großbritannien.
 Bauen Sie Ihren eigenen Bauernhof und verwandeln Sie diese große Fläche zurück in ihren früheren Glanz.
 Es gibt einen künstlich angelegten Teich, an dem man sich am Ende des Tages entspannen kann.
 
 Folgendes ist auf der Map verfügbar:
+- Sammelobjekte
 - 3 Verkaufsstellen für Ballen, Flüssigkeiten und Feldfrüchte/Produkte aus dem Basegame
 - Selbst gebaute BGA mit einer Verkaufsstelle für Methan
 - Kleiner Wald, der für den Start verwendet werden kann
 - Benutzerdefiniertes UK GEO
 - 1 vordefinierte Grasfläche für den Einstieg]]></de>
-</description>
+    </description>
 	
     <iconFilename>icon.png</iconFilename>
     <multiplayer supported="true"/>

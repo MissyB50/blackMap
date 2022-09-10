@@ -20,7 +20,7 @@
     <placement useRandomYRotation="false" useManualYRotation="true" />
 
     <hotspots>
-        <hotspot type="FUEL" linkNode="0>" teleportNode="0>2" />
+        <hotspot type="FUEL" linkNode="0>" teleportNode="0>" />
     </hotspots>
 
     <buyingStation node="0" supportsExtension="false" >

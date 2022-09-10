@@ -44,7 +44,7 @@
 
     <hotspots>
         <placeableHotspot type="SHOP" text="$l10n_vehicle_shop" worldPosition="976 990" teleportWorldPosition="976 60 990" />
-        <placeableHotspot type="SHOP_ANIMAL" text="$l10n_animals_dealer" worldPosition="908.5 979.1" teleportWorldPosition="908.5 60 979.1"/>
+        <placeableHotspot type="SHOP_ANIMAL" text="Livestock Market" worldPosition="908.5 979.1" teleportWorldPosition="908.5 60 979.1"/>
     </hotspots>
 
     <!-- <competitiveMultiplayer filename="$data/maps/mapFR/competitiveMultiplayer.xml" /> -->
