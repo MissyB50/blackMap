@@ -25,7 +25,8 @@
   <Scene>
       <TransformGroup name="gasStation" nodeId="7">
         <Shape shapeId="1" name="gasStationTrigger" translation="1.546 2.84562 -0.24039" static="true" trigger="true" collisionMask="1075838976" nodeId="8" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true" distanceBlending="false"/>
-        <TransformGroup name="mapPosition" translation="-2 0 0" nodeId="9"/>
+        <TransformGroup name="mapPosition" translation="-2 0 2.91185" nodeId="9"/>
+        <TransformGroup name="teliport" translation="5 0 0" nodeId="12"/>
       </TransformGroup>
   </Scene>
 
