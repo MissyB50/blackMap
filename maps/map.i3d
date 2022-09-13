@@ -956,7 +956,7 @@
   </Dynamics>
 
   <Scene>
-      <Camera name="persp" translation="768.248 146.31 823.562" rotation="157.644 -49.4373 -180" visibility="false" nodeId="242" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="20"/>
+      <Camera name="persp" translation="-396.927 715.941 1171.15" rotation="-40.4611 9.88157 7.04137e-07" visibility="false" nodeId="242" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="20"/>
       <Light name="sun" translation="0 400 0" rotation="-35.393 51.396 20.805" objectMask="67043328" nodeId="243" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="2048" shadowFarDistance="1000" shadowExtrusionDistance="200" pcssLightSize="50" pcssLightDistance="50" pcssDepthBiasFactor="1" pcssMaxPenumbraSize="1" shadowPerspective="true" numShadowMapSplits="5" shadowMapSplitDistance0="20.7462" shadowMapSplitDistance1="46.4883" shadowMapSplitDistance2="120" shadowMapSplitDistance3="314" lastShadowMapSplitBboxMin="-1024,-128,-1024" lastShadowMapSplitBboxMax="1024,148,1024" range="10000" scattering="true"/>
       <TerrainTransformGroup name="terrain" static="true" collisionMask="524255" nodeId="245" heightMapId="1" patchSize="65" maxLODDistance="750" heightScale="255" unitsPerPixel="2" lodBlendStart="200" lodBlendEnd="300" lodTextureSize="2048" lodBlendStartDynamic="50" lodBlendEndDynamic="65" detailLodBlendDelta="5" materialId="94" castShadowMap="true" occLevel="1" occFaceCount="100" occMaxHausdorffDistance="10" occMaxHausdorffDistanceExtra="10" occMinHorizontalDistance="1" occDistanceWeight="1">
         <Layers>
@@ -6605,6 +6605,11 @@
       <TransformGroup name="Water PLane" nodeId="4378">
         <Shape shapeId="131" name="waterPlane" translation="90.7493 57.7538 974.588" rotation="-1.75627 -0.158513 -1.26155" scale="12.5384 1 48.291" nodeId="4379" materialIds="101" receiveShadows="true"/>
         <Shape shapeId="131" name="waterPlane" translation="121.849 57.2147 926.942" scale="26.5579 1 24.802" static="true" trigger="true" collisionMask="2147483648" nodeId="4380" materialIds="101" receiveShadows="true"/>
+        <Shape shapeId="131" name="waterPlane" translation="406.854 54.801 943.102" scale="257.563 1 68.821" static="true" trigger="true" collisionMask="2147483648" nodeId="17916" materialIds="101" receiveShadows="true"/>
+        <Shape shapeId="131" name="waterPlane" translation="406.854 54.801 808.802" scale="257.563 1 68.821" static="true" trigger="true" collisionMask="2147483648" nodeId="17918" materialIds="101" receiveShadows="true"/>
+        <Shape shapeId="131" name="waterPlane" translation="46.7535 50.7849 613.771" rotation="0 90 0" scale="257.563 1 182.339" static="true" trigger="true" collisionMask="2147483648" nodeId="17919" materialIds="101" receiveShadows="true"/>
+        <Shape shapeId="131" name="waterPlane" translation="335.749 48 -437.44" rotation="0 90 0" scale="500 1 500" static="true" trigger="true" collisionMask="2147483648" nodeId="17920" materialIds="101" receiveShadows="true"/>
+        <Shape shapeId="131" name="waterPlane" translation="-407.401 47 236.631" rotation="0 90 0" scale="500 1 500" static="true" trigger="true" collisionMask="2147483648" nodeId="17921" materialIds="101" receiveShadows="true"/>
       </TransformGroup>
       <TransformGroup name="unloadingStation" lockedgroup="true" translation="898.356 60.401 950.655" rotation="0 90 0" nodeId="4381">
         <TransformGroup name="tipOcclusionUpdateAreas" nodeId="4382">
@@ -6683,6 +6688,21 @@
       <Attribute name="onCreate" type="scriptCallback" value="Environment.onCreateWater"/>
     </UserAttribute>
     <UserAttribute nodeId="4380">
+      <Attribute name="onCreate" type="scriptCallback" value="Environment.onCreateWater"/>
+    </UserAttribute>
+    <UserAttribute nodeId="17916">
+      <Attribute name="onCreate" type="scriptCallback" value="Environment.onCreateWater"/>
+    </UserAttribute>
+    <UserAttribute nodeId="17918">
+      <Attribute name="onCreate" type="scriptCallback" value="Environment.onCreateWater"/>
+    </UserAttribute>
+    <UserAttribute nodeId="17919">
+      <Attribute name="onCreate" type="scriptCallback" value="Environment.onCreateWater"/>
+    </UserAttribute>
+    <UserAttribute nodeId="17920">
+      <Attribute name="onCreate" type="scriptCallback" value="Environment.onCreateWater"/>
+    </UserAttribute>
+    <UserAttribute nodeId="17921">
       <Attribute name="onCreate" type="scriptCallback" value="Environment.onCreateWater"/>
     </UserAttribute>
   </UserAttributes>
