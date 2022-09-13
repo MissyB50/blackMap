@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="68">
+<modDesc descVersion="69">
     <author>MISSYB, Volcan95</author>
-    <version>1.0.0.0</version>
+    <version>1.1.0.0</version>
     <title>
         <en>Avon Valley</en>
         <de>Avon-Tal</de>
@@ -9,14 +9,23 @@
     <description>
 <en><![CDATA[Welcome to Avon Valley. This is empty wilderness is set in the uk.
 Build your own farm and turn this great expanse back to its former glory.
-There is a custum made pond that is great to relax by at the end of the day.
+There is a custom made pond that is great to relax by at the end of the day.
 
 The following are available on the map:
 - 3 selling points for bales, liquids and crops/products from the basegame
 - Custom build bga with a selling point for methane
 - Small forest that can be used for startup
 - Custom build UK GEO
-- 1 predefined grass field to get you started]]></en>
+- 1 predefined grass field to get you started
+- Precision Farming ready
+
+Changelog; 1.1.0.0
+-Corrected placement of Building
+-
+-Added Swedish translation 
+]]></en>
+
+
 <de><![CDATA[Willkommen im Avon-Tal. Diese leere Wildnis liegt in Großbritannien.
 Bauen Sie Ihren eigenen Bauernhof und verwandeln Sie diese große Fläche zurück in ihren früheren Glanz.
 Es gibt einen künstlich angelegten Teich, an dem man sich am Ende des Tages entspannen kann.
@@ -26,7 +35,33 @@ Folgendes ist auf der Map verfügbar:
 - Selbst gebaute BGA mit einer Verkaufsstelle für Methan
 - Kleiner Wald, der für den Start verwendet werden kann
 - Benutzerdefiniertes UK GEO
-- 1 vordefinierte Grasfläche für den Einstieg]]></de>
+- 1 vordefinierte Grasfläche für den Einstieg
+- Precision Farming bereit
+
+Changelog; 1.1.0.0
+-Korrigierte Platzierung des Gebäudes
+-
+-Schwedische Übersetzung hinzugefügt 
+]]></de>
+
+<sw><![CDATA[Välkommen till Avon Valley. Detta är en tom vildmark som ligger i Storbritannien.
+Bygg din egen gård och förvandla denna stora vidd tillbaka till sin forna glans.
+Det finns en skräddarsydd damm som är härlig att koppla av vid i slutet av dagen.
+
+Följande finns tillgängliga på kartan:
+- 3 försäljningsställen för balar, vätskor och grödor/produkter från grundspelet.
+- Specialbyggd bga med ett försäljningsställe för metan.
+- Liten skog som kan användas för uppstart
+- Anpassad byggnad av UK GEO
+- 1 fördefinierat gräsfält för att komma igång.
+- Precisionsjordbruk redo
+
+
+Ändringslista; 1.1.0.0.0
+-Korrigerad placering av byggnaden
+-
+-Tillagd svensk översättning
+]]></sw>
 </description>
 	
     <iconFilename>icon.png</iconFilename>
@@ -36,10 +71,12 @@ Folgendes ist auf der Map verfügbar:
             <title>
                 <en>Avon Valley</en>
                 <de>Avon-Tal</de>
+                <sw>Avon Valley</sw>
             </title>
             <description>
                 <en>Blank map with the minimum you need to get started and a small forest.</en>
                 <de>Leere Karte mit dem Minimum, welches du für den Anfang brauchst, und einem kleinen Wald.</de>
+                <sw>Blank karta med det minsta du behöver för att komma igång och en liten skog.</sw>
             </description>
             <iconFilename>preview.png</iconFilename>
         </map>

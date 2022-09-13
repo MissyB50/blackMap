@@ -6,166 +6,6 @@
   </Asset>
 
   <Files>
-    <File fileId="164" filename="data/animalMud01_weight.png"/>
-    <File fileId="167" filename="data/animalMud02_weight.png"/>
-    <File fileId="170" filename="data/animalMud03_weight.png"/>
-    <File fileId="173" filename="data/animalMud04_weight.png"/>
-    <File fileId="176" filename="data/asphalt01_weight.png"/>
-    <File fileId="179" filename="data/asphalt02_weight.png"/>
-    <File fileId="182" filename="data/asphalt03_weight.png"/>
-    <File fileId="185" filename="data/asphalt04_weight.png"/>
-    <File fileId="32" filename="data/cobbleStone01_weight.png"/>
-    <File fileId="35" filename="data/cobbleStone02_weight.png"/>
-    <File fileId="38" filename="data/cobbleStone03_weight.png"/>
-    <File fileId="41" filename="data/cobbleStone04_weight.png"/>
-    <File fileId="104" filename="data/concrete01_weight.png"/>
-    <File fileId="107" filename="data/concrete02_weight.png"/>
-    <File fileId="110" filename="data/concrete03_weight.png"/>
-    <File fileId="113" filename="data/concrete04_weight.png"/>
-    <File fileId="116" filename="data/concreteRubble01_weight.png"/>
-    <File fileId="119" filename="data/concreteRubble02_weight.png"/>
-    <File fileId="122" filename="data/concreteRubble03_weight.png"/>
-    <File fileId="125" filename="data/concreteRubble04_weight.png"/>
-    <File fileId="188" filename="data/concreteTiles01_weight.png"/>
-    <File fileId="191" filename="data/concreteTiles02_weight.png"/>
-    <File fileId="194" filename="data/concreteTiles03_weight.png"/>
-    <File fileId="197" filename="data/concreteTiles04_weight.png"/>
-    <File fileId="297" filename="data/densityMap_fruits.gdm"/>
-    <File fileId="271" filename="data/densityMap_ground.gdm"/>
-    <File fileId="291" filename="data/densityMap_height.gdm"/>
-    <File fileId="299" filename="data/densityMap_stones.gdm"/>
-    <File fileId="298" filename="data/densityMap_weed.gdm"/>
-    <File fileId="4" filename="data/dirt01_weight.png"/>
-    <File fileId="7" filename="data/dirt02_weight.png"/>
-    <File fileId="10" filename="data/dirt03_weight.png"/>
-    <File fileId="13" filename="data/dirt04_weight.png"/>
-    <File fileId="16" filename="data/dirtDark01_weight.png"/>
-    <File fileId="18" filename="data/dirtDark02_weight.png"/>
-    <File fileId="128" filename="data/forestGround01_weight.png"/>
-    <File fileId="131" filename="data/forestGround02_weight.png"/>
-    <File fileId="134" filename="data/forestGround03_weight.png"/>
-    <File fileId="137" filename="data/forestGround04_weight.png"/>
-    <File fileId="140" filename="data/forestGroundLeaves01_weight.png"/>
-    <File fileId="143" filename="data/forestGroundLeaves02_weight.png"/>
-    <File fileId="146" filename="data/forestGroundLeaves03_weight.png"/>
-    <File fileId="149" filename="data/forestGroundLeaves04_weight.png"/>
-    <File fileId="44" filename="data/grass01_weight.png"/>
-    <File fileId="47" filename="data/grass02_weight.png"/>
-    <File fileId="50" filename="data/grass03_weight.png"/>
-    <File fileId="53" filename="data/grass04_weight.png"/>
-    <File fileId="20" filename="data/grassDirt01_weight.png"/>
-    <File fileId="23" filename="data/grassDirt02_weight.png"/>
-    <File fileId="26" filename="data/grassDirt03_weight.png"/>
-    <File fileId="29" filename="data/grassDirt04_weight.png"/>
-    <File fileId="92" filename="data/gravel01_weight.png"/>
-    <File fileId="95" filename="data/gravel02_weight.png"/>
-    <File fileId="98" filename="data/gravel03_weight.png"/>
-    <File fileId="101" filename="data/gravel04_weight.png"/>
-    <File fileId="152" filename="data/groundBricks01_weight.png"/>
-    <File fileId="155" filename="data/groundBricks02_weight.png"/>
-    <File fileId="158" filename="data/groundBricks03_weight.png"/>
-    <File fileId="161" filename="data/groundBricks04_weight.png"/>
-    <File fileId="241" filename="data/infoLayer_farmland.grle"/>
-    <File fileId="243" filename="data/infoLayer_indoorMask.grle"/>
-    <File fileId="244" filename="data/infoLayer_navigationCollision.grle"/>
-    <File fileId="247" filename="data/infoLayer_placementCollisionGenerated.grle"/>
-    <File fileId="242" filename="data/infoLayer_soilMap.grle"/>
-    <File fileId="245" filename="data/infoLayer_tipCollision.grle"/>
-    <File fileId="246" filename="data/infoLayer_tipCollisionGenerated.grle"/>
-    <File fileId="1" filename="data/map_dem.png"/>
-    <File fileId="56" filename="data/mountainRock01_weight.png"/>
-    <File fileId="59" filename="data/mountainRock02_weight.png"/>
-    <File fileId="62" filename="data/mountainRock03_weight.png"/>
-    <File fileId="65" filename="data/mountainRock04_weight.png"/>
-    <File fileId="68" filename="data/mountainRockDark01_weight.png"/>
-    <File fileId="71" filename="data/mountainRockDark02_weight.png"/>
-    <File fileId="74" filename="data/mountainRockDark03_weight.png"/>
-    <File fileId="77" filename="data/mountainRockDark04_weight.png"/>
-    <File fileId="80" filename="data/riverMud01_weight.png"/>
-    <File fileId="83" filename="data/riverMud02_weight.png"/>
-    <File fileId="86" filename="data/riverMud03_weight.png"/>
-    <File fileId="89" filename="data/riverMud04_weight.png"/>
-    <File fileId="200" filename="data/waterPuddle_weight.png"/>
-    <File fileId="406" filename="particleSystems/waterSplashParticle.png"/>
-    <File fileId="372" filename="textures/AGCO.dds"/>
-    <File fileId="381" filename="textures/ARegal.dds"/>
-    <File fileId="357" filename="textures/Cladding.dds"/>
-    <File fileId="433" filename="textures/Metal019_diff.dds"/>
-    <File fileId="434" filename="textures/Metal019_normal.dds"/>
-    <File fileId="435" filename="textures/Metal021_diff.dds"/>
-    <File fileId="436" filename="textures/Metal021_normal.dds"/>
-    <File fileId="385" filename="textures/Tools.dds"/>
-    <File fileId="383" filename="textures/WKZSchrank.dds"/>
-    <File fileId="382" filename="textures/Wagenheber.dds"/>
-    <File fileId="384" filename="textures/Werkbank.dds"/>
-    <File fileId="420" filename="textures/bgaPropsA_diffuse.png"/>
-    <File fileId="421" filename="textures/bgaPropsA_normal.png"/>
-    <File fileId="422" filename="textures/bgaPropsA_specular.png"/>
-    <File fileId="423" filename="textures/bgaPropsB_diffuse.png"/>
-    <File fileId="424" filename="textures/bgaPropsB_normal.png"/>
-    <File fileId="425" filename="textures/bgaPropsB_specular.png"/>
-    <File fileId="407" filename="textures/biogasPlantParts_diffuse.dds"/>
-    <File fileId="408" filename="textures/biogasPlantParts_normal.dds"/>
-    <File fileId="404" filename="textures/biogasPlant_diffuse.dds"/>
-    <File fileId="405" filename="textures/biogasPlant_normal.dds"/>
-    <File fileId="354" filename="textures/bluemet.png"/>
-    <File fileId="370" filename="textures/brand_claas.dds"/>
-    <File fileId="390" filename="textures/carLift_diffuse.dds"/>
-    <File fileId="371" filename="textures/caseIH.dds"/>
-    <File fileId="392" filename="textures/compressor_diff.png"/>
-    <File fileId="413" filename="textures/concreteSlabs.dds"/>
-    <File fileId="359" filename="textures/crepis.dds"/>
-    <File fileId="368" filename="textures/dalles.dds"/>
-    <File fileId="426" filename="textures/decalOilSlicks_diffuse.png"/>
-    <File fileId="437" filename="textures/diffuse.dds"/>
-    <File fileId="441" filename="textures/farmSilos_diffuse.png"/>
-    <File fileId="442" filename="textures/farmSilos_normal.png"/>
-    <File fileId="443" filename="textures/farmSilos_specular.png"/>
-    <File fileId="388" filename="textures/fendtBackWheel_diffuse.png"/>
-    <File fileId="386" filename="textures/fendtFrontWheel_diffuse.png"/>
-    <File fileId="416" filename="textures/galvScrached.dds"/>
-    <File fileId="376" filename="textures/glassRed_diffuse.png"/>
-    <File fileId="350" filename="textures/glass_normal.dds"/>
-    <File fileId="351" filename="textures/glass_specular.dds"/>
-    <File fileId="438" filename="textures/glav_diffuse.dds"/>
-    <File fileId="439" filename="textures/grid_normal.dds"/>
-    <File fileId="377" filename="textures/lightPoleSetGlass_specular.png"/>
-    <File fileId="393" filename="textures/lobby_diffuse.png"/>
-    <File fileId="414" filename="textures/manureTank_diffuse.dds"/>
-    <File fileId="415" filename="textures/manureTank_normal.dds"/>
-    <File fileId="417" filename="textures/metals.dds"/>
-    <File fileId="379" filename="textures/oilStain2_diffuse.png"/>
-    <File fileId="380" filename="textures/oilStain_specular.png"/>
-    <File fileId="419" filename="textures/pail06Cap_vis.dds"/>
-    <File fileId="401" filename="textures/roughGrass_diffuse.dds"/>
-    <File fileId="402" filename="textures/roughGrass_normal.dds"/>
-    <File fileId="373" filename="textures/shopFurniture_diffuse.dds"/>
-    <File fileId="374" filename="textures/shopFurniture_normal.dds"/>
-    <File fileId="498" filename="textures/shrub01_LOD.dds"/>
-    <File fileId="496" filename="textures/shrub5.dds"/>
-    <File fileId="366" filename="textures/tabgarage.dds"/>
-    <File fileId="353" filename="textures/tabgarage2.dds"/>
-    <File fileId="352" filename="textures/tabgarage3.dds"/>
-    <File fileId="360" filename="textures/tableau1.dds"/>
-    <File fileId="363" filename="textures/tableau2.dds"/>
-    <File fileId="365" filename="textures/tableau3.dds"/>
-    <File fileId="362" filename="textures/tableau4.dds"/>
-    <File fileId="364" filename="textures/tableau6.dds"/>
-    <File fileId="361" filename="textures/tableau7.dds"/>
-    <File fileId="399" filename="textures/tankStore_diffuse.dds"/>
-    <File fileId="400" filename="textures/tankStore_normal.dds"/>
-    <File fileId="367" filename="textures/toiture.dds"/>
-    <File fileId="356" filename="textures/ventilation.dds"/>
-    <File fileId="444" filename="textures/waterplants_diffuse.png"/>
-    <File fileId="445" filename="textures/waterplants_normal.png"/>
-    <File fileId="446" filename="textures/waterplants_specular.png"/>
-    <File fileId="391" filename="textures/wheelGun_diff.png"/>
-    <File fileId="466" filename="trees/spruce5LOD_diffuse.png"/>
-    <File fileId="467" filename="trees/spruce5LOD_normal.png"/>
-    <File fileId="463" filename="trees/spruceBranch_diffuse.dds"/>
-    <File fileId="464" filename="trees/spruceBranch_normal.dds"/>
-    <File fileId="460" filename="trees/spruceTrunk_diffuse.png"/>
-    <File fileId="461" filename="trees/spruceTrunk_normal.png"/>
     <File fileId="292" filename="$data/fillPlanes/dummyFillplane_diffuse.dds"/>
     <File fileId="293" filename="$data/fillPlanes/dummyFillplane_normal.dds"/>
     <File fileId="294" filename="$data/fillPlanes/dummyFillplane_specular.dds"/>
@@ -485,6 +325,166 @@
     <File fileId="349" filename="$data/shared/window_diffuse.png"/>
     <File fileId="378" filename="$data/shared/window_specular.png"/>
     <File fileId="369" filename="$data/store/brands/brand_fendt.dds"/>
+    <File fileId="164" filename="data/animalMud01_weight.png"/>
+    <File fileId="167" filename="data/animalMud02_weight.png"/>
+    <File fileId="170" filename="data/animalMud03_weight.png"/>
+    <File fileId="173" filename="data/animalMud04_weight.png"/>
+    <File fileId="176" filename="data/asphalt01_weight.png"/>
+    <File fileId="179" filename="data/asphalt02_weight.png"/>
+    <File fileId="182" filename="data/asphalt03_weight.png"/>
+    <File fileId="185" filename="data/asphalt04_weight.png"/>
+    <File fileId="32" filename="data/cobbleStone01_weight.png"/>
+    <File fileId="35" filename="data/cobbleStone02_weight.png"/>
+    <File fileId="38" filename="data/cobbleStone03_weight.png"/>
+    <File fileId="41" filename="data/cobbleStone04_weight.png"/>
+    <File fileId="104" filename="data/concrete01_weight.png"/>
+    <File fileId="107" filename="data/concrete02_weight.png"/>
+    <File fileId="110" filename="data/concrete03_weight.png"/>
+    <File fileId="113" filename="data/concrete04_weight.png"/>
+    <File fileId="116" filename="data/concreteRubble01_weight.png"/>
+    <File fileId="119" filename="data/concreteRubble02_weight.png"/>
+    <File fileId="122" filename="data/concreteRubble03_weight.png"/>
+    <File fileId="125" filename="data/concreteRubble04_weight.png"/>
+    <File fileId="188" filename="data/concreteTiles01_weight.png"/>
+    <File fileId="191" filename="data/concreteTiles02_weight.png"/>
+    <File fileId="194" filename="data/concreteTiles03_weight.png"/>
+    <File fileId="197" filename="data/concreteTiles04_weight.png"/>
+    <File fileId="297" filename="data/densityMap_fruits.gdm"/>
+    <File fileId="271" filename="data/densityMap_ground.gdm"/>
+    <File fileId="291" filename="data/densityMap_height.gdm"/>
+    <File fileId="299" filename="data/densityMap_stones.gdm"/>
+    <File fileId="298" filename="data/densityMap_weed.gdm"/>
+    <File fileId="4" filename="data/dirt01_weight.png"/>
+    <File fileId="7" filename="data/dirt02_weight.png"/>
+    <File fileId="10" filename="data/dirt03_weight.png"/>
+    <File fileId="13" filename="data/dirt04_weight.png"/>
+    <File fileId="16" filename="data/dirtDark01_weight.png"/>
+    <File fileId="18" filename="data/dirtDark02_weight.png"/>
+    <File fileId="128" filename="data/forestGround01_weight.png"/>
+    <File fileId="131" filename="data/forestGround02_weight.png"/>
+    <File fileId="134" filename="data/forestGround03_weight.png"/>
+    <File fileId="137" filename="data/forestGround04_weight.png"/>
+    <File fileId="140" filename="data/forestGroundLeaves01_weight.png"/>
+    <File fileId="143" filename="data/forestGroundLeaves02_weight.png"/>
+    <File fileId="146" filename="data/forestGroundLeaves03_weight.png"/>
+    <File fileId="149" filename="data/forestGroundLeaves04_weight.png"/>
+    <File fileId="44" filename="data/grass01_weight.png"/>
+    <File fileId="47" filename="data/grass02_weight.png"/>
+    <File fileId="50" filename="data/grass03_weight.png"/>
+    <File fileId="53" filename="data/grass04_weight.png"/>
+    <File fileId="20" filename="data/grassDirt01_weight.png"/>
+    <File fileId="23" filename="data/grassDirt02_weight.png"/>
+    <File fileId="26" filename="data/grassDirt03_weight.png"/>
+    <File fileId="29" filename="data/grassDirt04_weight.png"/>
+    <File fileId="92" filename="data/gravel01_weight.png"/>
+    <File fileId="95" filename="data/gravel02_weight.png"/>
+    <File fileId="98" filename="data/gravel03_weight.png"/>
+    <File fileId="101" filename="data/gravel04_weight.png"/>
+    <File fileId="152" filename="data/groundBricks01_weight.png"/>
+    <File fileId="155" filename="data/groundBricks02_weight.png"/>
+    <File fileId="158" filename="data/groundBricks03_weight.png"/>
+    <File fileId="161" filename="data/groundBricks04_weight.png"/>
+    <File fileId="241" filename="data/infoLayer_farmland.grle"/>
+    <File fileId="243" filename="data/infoLayer_indoorMask.grle"/>
+    <File fileId="244" filename="data/infoLayer_navigationCollision.grle"/>
+    <File fileId="247" filename="data/infoLayer_placementCollisionGenerated.grle"/>
+    <File fileId="242" filename="data/infoLayer_soilMap.grle"/>
+    <File fileId="245" filename="data/infoLayer_tipCollision.grle"/>
+    <File fileId="246" filename="data/infoLayer_tipCollisionGenerated.grle"/>
+    <File fileId="1" filename="data/map_dem.png"/>
+    <File fileId="56" filename="data/mountainRock01_weight.png"/>
+    <File fileId="59" filename="data/mountainRock02_weight.png"/>
+    <File fileId="62" filename="data/mountainRock03_weight.png"/>
+    <File fileId="65" filename="data/mountainRock04_weight.png"/>
+    <File fileId="68" filename="data/mountainRockDark01_weight.png"/>
+    <File fileId="71" filename="data/mountainRockDark02_weight.png"/>
+    <File fileId="74" filename="data/mountainRockDark03_weight.png"/>
+    <File fileId="77" filename="data/mountainRockDark04_weight.png"/>
+    <File fileId="80" filename="data/riverMud01_weight.png"/>
+    <File fileId="83" filename="data/riverMud02_weight.png"/>
+    <File fileId="86" filename="data/riverMud03_weight.png"/>
+    <File fileId="89" filename="data/riverMud04_weight.png"/>
+    <File fileId="200" filename="data/waterPuddle_weight.png"/>
+    <File fileId="406" filename="particleSystems/waterSplashParticle.png"/>
+    <File fileId="372" filename="textures/AGCO.dds"/>
+    <File fileId="381" filename="textures/ARegal.dds"/>
+    <File fileId="357" filename="textures/Cladding.dds"/>
+    <File fileId="433" filename="textures/Metal019_diff.dds"/>
+    <File fileId="434" filename="textures/Metal019_normal.dds"/>
+    <File fileId="435" filename="textures/Metal021_diff.dds"/>
+    <File fileId="436" filename="textures/Metal021_normal.dds"/>
+    <File fileId="385" filename="textures/Tools.dds"/>
+    <File fileId="383" filename="textures/WKZSchrank.dds"/>
+    <File fileId="382" filename="textures/Wagenheber.dds"/>
+    <File fileId="384" filename="textures/Werkbank.dds"/>
+    <File fileId="420" filename="textures/bgaPropsA_diffuse.png"/>
+    <File fileId="421" filename="textures/bgaPropsA_normal.png"/>
+    <File fileId="422" filename="textures/bgaPropsA_specular.png"/>
+    <File fileId="423" filename="textures/bgaPropsB_diffuse.png"/>
+    <File fileId="424" filename="textures/bgaPropsB_normal.png"/>
+    <File fileId="425" filename="textures/bgaPropsB_specular.png"/>
+    <File fileId="407" filename="textures/biogasPlantParts_diffuse.dds"/>
+    <File fileId="408" filename="textures/biogasPlantParts_normal.dds"/>
+    <File fileId="404" filename="textures/biogasPlant_diffuse.dds"/>
+    <File fileId="405" filename="textures/biogasPlant_normal.dds"/>
+    <File fileId="354" filename="textures/bluemet.png"/>
+    <File fileId="370" filename="textures/brand_claas.dds"/>
+    <File fileId="390" filename="textures/carLift_diffuse.dds"/>
+    <File fileId="371" filename="textures/caseIH.dds"/>
+    <File fileId="392" filename="textures/compressor_diff.png"/>
+    <File fileId="413" filename="textures/concreteSlabs.dds"/>
+    <File fileId="359" filename="textures/crepis.dds"/>
+    <File fileId="368" filename="textures/dalles.dds"/>
+    <File fileId="426" filename="textures/decalOilSlicks_diffuse.png"/>
+    <File fileId="437" filename="textures/diffuse.dds"/>
+    <File fileId="441" filename="textures/farmSilos_diffuse.png"/>
+    <File fileId="442" filename="textures/farmSilos_normal.png"/>
+    <File fileId="443" filename="textures/farmSilos_specular.png"/>
+    <File fileId="388" filename="textures/fendtBackWheel_diffuse.png"/>
+    <File fileId="386" filename="textures/fendtFrontWheel_diffuse.png"/>
+    <File fileId="416" filename="textures/galvScrached.dds"/>
+    <File fileId="376" filename="textures/glassRed_diffuse.png"/>
+    <File fileId="350" filename="textures/glass_normal.dds"/>
+    <File fileId="351" filename="textures/glass_specular.dds"/>
+    <File fileId="438" filename="textures/glav_diffuse.dds"/>
+    <File fileId="439" filename="textures/grid_normal.dds"/>
+    <File fileId="377" filename="textures/lightPoleSetGlass_specular.png"/>
+    <File fileId="393" filename="textures/lobby_diffuse.png"/>
+    <File fileId="414" filename="textures/manureTank_diffuse.dds"/>
+    <File fileId="415" filename="textures/manureTank_normal.dds"/>
+    <File fileId="417" filename="textures/metals.dds"/>
+    <File fileId="379" filename="textures/oilStain2_diffuse.png"/>
+    <File fileId="380" filename="textures/oilStain_specular.png"/>
+    <File fileId="419" filename="textures/pail06Cap_vis.dds"/>
+    <File fileId="401" filename="textures/roughGrass_diffuse.dds"/>
+    <File fileId="402" filename="textures/roughGrass_normal.dds"/>
+    <File fileId="373" filename="textures/shopFurniture_diffuse.dds"/>
+    <File fileId="374" filename="textures/shopFurniture_normal.dds"/>
+    <File fileId="498" filename="textures/shrub01_LOD.dds"/>
+    <File fileId="496" filename="textures/shrub5.dds"/>
+    <File fileId="366" filename="textures/tabgarage.dds"/>
+    <File fileId="353" filename="textures/tabgarage2.dds"/>
+    <File fileId="352" filename="textures/tabgarage3.dds"/>
+    <File fileId="360" filename="textures/tableau1.dds"/>
+    <File fileId="363" filename="textures/tableau2.dds"/>
+    <File fileId="365" filename="textures/tableau3.dds"/>
+    <File fileId="362" filename="textures/tableau4.dds"/>
+    <File fileId="364" filename="textures/tableau6.dds"/>
+    <File fileId="361" filename="textures/tableau7.dds"/>
+    <File fileId="399" filename="textures/tankStore_diffuse.dds"/>
+    <File fileId="400" filename="textures/tankStore_normal.dds"/>
+    <File fileId="367" filename="textures/toiture.dds"/>
+    <File fileId="356" filename="textures/ventilation.dds"/>
+    <File fileId="444" filename="textures/waterplants_diffuse.png"/>
+    <File fileId="445" filename="textures/waterplants_normal.png"/>
+    <File fileId="446" filename="textures/waterplants_specular.png"/>
+    <File fileId="391" filename="textures/wheelGun_diff.png"/>
+    <File fileId="466" filename="trees/spruce5LOD_diffuse.png"/>
+    <File fileId="467" filename="trees/spruce5LOD_normal.png"/>
+    <File fileId="463" filename="trees/spruceBranch_diffuse.dds"/>
+    <File fileId="464" filename="trees/spruceBranch_normal.dds"/>
+    <File fileId="460" filename="trees/spruceTrunk_diffuse.png"/>
+    <File fileId="461" filename="trees/spruceTrunk_normal.png"/>
   </Files>
 
 
@@ -493,13 +493,13 @@
     </Material>
     <Material name="02 - Default" materialId="5" alphaBlending="true">
       <Texture fileId="349"/>
-      <Normalmap fileId="350"/>
-      <Glossmap fileId="351"/>
+      <Normalmap fileId="335"/>
+      <Glossmap fileId="378"/>
     </Material>
     <Material name="02 - Default" materialId="6" alphaBlending="true">
       <Texture fileId="349"/>
-      <Normalmap fileId="335"/>
-      <Glossmap fileId="378"/>
+      <Normalmap fileId="350"/>
+      <Glossmap fileId="351"/>
     </Material>
     <Material name="03 - Default" materialId="7" diffuseColor="0.894118 0.894118 0.894118 1">
     </Material>
@@ -887,25 +887,25 @@
       <CustomParameter name="windSnowLeafScale" value="1 1 1 0"/>
     </Material>
     <Material name="UnnamedMaterial" materialId="96" alphaBlending="true">
-      <Texture fileId="372"/>
-    </Material>
-    <Material name="UnnamedMaterial" materialId="97" alphaBlending="true">
-      <Texture fileId="370"/>
-    </Material>
-    <Material name="UnnamedMaterial" materialId="98" alphaBlending="true">
-      <Texture fileId="371"/>
-    </Material>
-    <Material name="UnnamedMaterial" materialId="99" alphaBlending="true">
       <Texture fileId="369"/>
     </Material>
-    <Material name="UnnamedMaterial" materialId="4390" diffuseColor="1 1 1 1">
+    <Material name="UnnamedMaterial" materialId="97" alphaBlending="true">
+      <Texture fileId="372"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="98" alphaBlending="true">
+      <Texture fileId="370"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="99" alphaBlending="true">
+      <Texture fileId="371"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="4389" diffuseColor="1 1 1 1">
     </Material>
     <Material name="warningStripes_mat" materialId="100">
       <Texture fileId="305"/>
       <Normalmap fileId="306"/>
       <Glossmap fileId="307"/>
     </Material>
-    <Material name="water_mat" materialId="101" diffuseColor="1 1 1 1" customShaderId="500">
+    <Material name="water_mat" materialId="17915" diffuseColor="1 1 1 1" customShaderId="500">
       <Normalmap fileId="499"/>
       <Glossmap fileId="336"/>
       <Reflectionmap lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="planar" scaling="1" refractiveIndex="1.03" bumpScale="0.1" shapesObjectMask="256" lightsObjectMask="16777216"/>
@@ -956,7 +956,7 @@
   </Dynamics>
 
   <Scene>
-      <Camera name="persp" translation="-396.927 715.941 1171.15" rotation="-40.4611 9.88157 7.04137e-07" visibility="false" nodeId="242" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="20"/>
+      <Camera name="persp" translation="143.35 322.239 925.806" rotation="-33.3582 -74.8413 1.3009e-06" visibility="false" nodeId="242" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="20"/>
       <Light name="sun" translation="0 400 0" rotation="-35.393 51.396 20.805" objectMask="67043328" nodeId="243" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="2048" shadowFarDistance="1000" shadowExtrusionDistance="200" pcssLightSize="50" pcssLightDistance="50" pcssDepthBiasFactor="1" pcssMaxPenumbraSize="1" shadowPerspective="true" numShadowMapSplits="5" shadowMapSplitDistance0="20.7462" shadowMapSplitDistance1="46.4883" shadowMapSplitDistance2="120" shadowMapSplitDistance3="314" lastShadowMapSplitBboxMin="-1024,-128,-1024" lastShadowMapSplitBboxMax="1024,148,1024" range="10000" scattering="true"/>
       <TerrainTransformGroup name="terrain" static="true" collisionMask="524255" nodeId="245" heightMapId="1" patchSize="65" maxLODDistance="750" heightScale="255" unitsPerPixel="2" lodBlendStart="200" lodBlendEnd="300" lodTextureSize="2048" lodBlendStartDynamic="50" lodBlendEndDynamic="65" detailLodBlendDelta="5" materialId="94" castShadowMap="true" occLevel="1" occFaceCount="100" occMaxHausdorffDistance="10" occMaxHausdorffDistanceExtra="10" occMinHorizontalDistance="1" occDistanceWeight="1">
         <Layers>
@@ -1350,24 +1350,24 @@
           <Shape shapeId="24" name="occluderMesh" clipDistance="250" nodeId="850" materialIds="62" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
         </TransformGroup>
         <TransformGroup name="mainShop" translation="978.124 60 1002.85" rotation="-0 180 0" static="true" nodeId="851">
-          <Shape shapeId="25" name="shop" translation="-2.59827 0 7.722" static="true" clipDistance="800" nodeId="852" materialIds="8,5,22,21,85,7,10,9,4,15,16,17,18,91,90,19,20,12,13" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="25" name="shop" translation="-2.59827 0 7.722" static="true" clipDistance="800" nodeId="852" materialIds="8,6,22,21,85,7,10,9,4,15,16,17,18,91,90,19,20,12,13" castsShadows="true" receiveShadows="true">
             <TransformGroup name="brandsWindow" nodeId="853">
-              <Shape shapeId="26" name="fendt" translation="6.00891 4.19482 20.6017" rotation="90 0 -5.62635e-07" scale="4 1 3" clipDistance="400" nodeId="854" materialIds="99" distanceBlending="false"/>
-              <Shape shapeId="26" name="fendt" translation="35.5952 3.94267 17.2629" rotation="90 90 0" scale="5.19623 1 3" clipDistance="400" nodeId="855" materialIds="99" distanceBlending="false"/>
-              <Shape shapeId="26" name="claas" translation="35.9239 4.726 -7.91988" rotation="90.0005 88.8605 0.000478817" scale="4 1 4" clipDistance="400" nodeId="856" materialIds="97" distanceBlending="false"/>
-              <Shape shapeId="26" name="claas" translation="11.4685 4.24312 20.4105" rotation="90 0 0" scale="4 1 4" clipDistance="400" nodeId="857" materialIds="97" distanceBlending="false"/>
-              <Shape shapeId="26" name="case" translation="16.5578 4.28403 20.37" rotation="90 0 0" scale="3 1 3" nodeId="858" materialIds="98" receiveShadows="true" distanceBlending="false"/>
-              <Shape shapeId="26" name="agco" translation="27.6109 3.95438 20.4374" rotation="90 -0 0" scale="4 1 3" nodeId="859" materialIds="96" receiveShadows="true" distanceBlending="false"/>
-              <Shape shapeId="26" name="agco" translation="35.5891 3.95438 9.75231" rotation="90 90 0" scale="4 1 3" nodeId="860" materialIds="96" receiveShadows="true" distanceBlending="false"/>
-              <Shape shapeId="26" name="case" translation="35.604 4.28403 0" rotation="90 90 0" scale="3 1 3" nodeId="861" materialIds="98" receiveShadows="true" distanceBlending="false"/>
+              <Shape shapeId="26" name="fendt" translation="6.00891 4.19482 20.6017" rotation="90 0 -5.62635e-07" scale="4 1 3" clipDistance="400" nodeId="854" materialIds="96" distanceBlending="false"/>
+              <Shape shapeId="26" name="fendt" translation="35.5952 3.94267 17.2629" rotation="90 90 0" scale="5.19623 1 3" clipDistance="400" nodeId="855" materialIds="96" distanceBlending="false"/>
+              <Shape shapeId="26" name="claas" translation="35.9239 4.726 -7.91988" rotation="90.0005 88.8605 0.000478817" scale="4 1 4" clipDistance="400" nodeId="856" materialIds="98" distanceBlending="false"/>
+              <Shape shapeId="26" name="claas" translation="11.4685 4.24312 20.4105" rotation="90 0 0" scale="4 1 4" clipDistance="400" nodeId="857" materialIds="98" distanceBlending="false"/>
+              <Shape shapeId="26" name="case" translation="16.5578 4.28403 20.37" rotation="90 0 0" scale="3 1 3" nodeId="858" materialIds="99" receiveShadows="true" distanceBlending="false"/>
+              <Shape shapeId="26" name="agco" translation="27.6109 3.95438 20.4374" rotation="90 -0 0" scale="4 1 3" nodeId="859" materialIds="97" receiveShadows="true" distanceBlending="false"/>
+              <Shape shapeId="26" name="agco" translation="35.5891 3.95438 9.75231" rotation="90 90 0" scale="4 1 3" nodeId="860" materialIds="97" receiveShadows="true" distanceBlending="false"/>
+              <Shape shapeId="26" name="case" translation="35.604 4.28403 0" rotation="90 90 0" scale="3 1 3" nodeId="861" materialIds="99" receiveShadows="true" distanceBlending="false"/>
             </TransformGroup>
             <Shape shapeId="27" name="receptionistDesk" translation="3.02096 0.0888519 4.38188" rotation="2.66308e-08 90 0" static="true" clipDistance="200" nodeId="862" materialIds="84" castsShadows="true" receiveShadows="true"/>
             <TransformGroup name="windows" translation="26.698 6.97 4.61" nodeId="863">
               <Shape shapeId="28" name="claas" translation="0.0024019 0.00318316 0" clipDistance="400" nodeId="864" materialIds="14" castsShadows="true" receiveShadows="true" weatherPreventMask="0"/>
-              <Shape shapeId="29" name="plane1" static="true" clipDistance="400" nodeId="865" materialIds="6" castsShadows="true" receiveShadows="true"/>
-              <Shape shapeId="30" name="plane2" static="true" clipDistance="400" nodeId="866" materialIds="6" castsShadows="true" receiveShadows="true"/>
-              <Shape shapeId="31" name="plane3" static="true" clipDistance="400" nodeId="867" materialIds="6" castsShadows="true" receiveShadows="true"/>
-              <Shape shapeId="32" name="plane4" rotation="0 90 0" static="true" clipDistance="400" nodeId="868" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="29" name="plane1" static="true" clipDistance="400" nodeId="865" materialIds="5" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="30" name="plane2" static="true" clipDistance="400" nodeId="866" materialIds="5" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="31" name="plane3" static="true" clipDistance="400" nodeId="867" materialIds="5" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="32" name="plane4" rotation="0 90 0" static="true" clipDistance="400" nodeId="868" materialIds="5" castsShadows="true" receiveShadows="true"/>
             </TransformGroup>
             <TransformGroup name="decals" nodeId="869">
               <Shape shapeId="33" name="oilStain2" rotation="-180 88.6821 -180" clipDistance="50" nodeId="870" materialIds="77" receiveShadows="true"/>
@@ -1450,7 +1450,7 @@
               </TransformGroup>
               <TransformGroup name="visuals" translation="0 -0.298492 0" nodeId="929">
                 <Shape shapeId="61" name="floodLighting03Vis" translation="0 0.298492 0" nodeId="930" materialIds="50" castsShadows="true" receiveShadows="true"/>
-                <Shape shapeId="62" name="glass" translation="0.0337897 19.7454 0.10095" clipDistance="50" nodeId="931" materialIds="6" castsShadows="true" receiveShadows="true" weatherRequiredMask="64"/>
+                <Shape shapeId="62" name="glass" translation="0.0337897 19.7454 0.10095" clipDistance="50" nodeId="931" materialIds="5" castsShadows="true" receiveShadows="true" weatherRequiredMask="64"/>
               </TransformGroup>
               <TransformGroup name="collisions" translation="0 -0.298492 0" nodeId="932">
                 <Shape shapeId="63" name="collision" translation="0 10.2989 -0.0189874" visibility="false" static="true" density="0.0001" nodeId="933" materialIds="62" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
@@ -1503,7 +1503,7 @@
               </TransformGroup>
               <TransformGroup name="visuals" translation="0 -0.298492 0" nodeId="964">
                 <Shape shapeId="61" name="floodLighting03Vis" translation="0 0.298492 0" nodeId="965" materialIds="50" castsShadows="true" receiveShadows="true"/>
-                <Shape shapeId="62" name="glass" translation="0.0337897 19.7454 0.10095" clipDistance="50" nodeId="966" materialIds="6" castsShadows="true" receiveShadows="true" weatherRequiredMask="64"/>
+                <Shape shapeId="62" name="glass" translation="0.0337897 19.7454 0.10095" clipDistance="50" nodeId="966" materialIds="5" castsShadows="true" receiveShadows="true" weatherRequiredMask="64"/>
               </TransformGroup>
               <TransformGroup name="collisions" translation="0 -0.298492 0" nodeId="967">
                 <Shape shapeId="63" name="collision" translation="0 10.2989 -0.0189874" visibility="false" static="true" density="0.0001" nodeId="968" materialIds="62" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
@@ -1556,7 +1556,7 @@
               </TransformGroup>
               <TransformGroup name="visuals" translation="0 -0.298492 0" nodeId="999">
                 <Shape shapeId="61" name="floodLighting03Vis" translation="0 0.298 0" nodeId="1000" materialIds="50" castsShadows="true" receiveShadows="true"/>
-                <Shape shapeId="62" name="glass" translation="0.0337897 19.745 0.10095" clipDistance="50" nodeId="1001" materialIds="6" castsShadows="true" receiveShadows="true" weatherRequiredMask="64"/>
+                <Shape shapeId="62" name="glass" translation="0.0337897 19.745 0.10095" clipDistance="50" nodeId="1001" materialIds="5" castsShadows="true" receiveShadows="true" weatherRequiredMask="64"/>
               </TransformGroup>
               <TransformGroup name="collisions" translation="0 -0.298492 0" nodeId="1002">
                 <Shape shapeId="63" name="collision" translation="0 10.2989 -0.0189874" visibility="false" static="true" density="0.0001" nodeId="1003" materialIds="62" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
@@ -1672,7 +1672,7 @@
             <Shape shapeId="104" name="decal" clipDistance="100" nodeId="1089" materialIds="55" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             <Shape shapeId="105" name="col" translation="0 -1.77636e-17 0" visibility="false" static="true" density="0.0001" nodeId="1090" materialIds="62" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
           </Shape>
-          <Shape shapeId="106" name="publicStandTrashcanUS08snow" lockedgroup="true" translation="3.07339 0.146717 -0.299049" rotation="-0.238687 0.076174 0.00304196" dynamic="true" nodeId="1091" materialIds="62" castsShadows="true" receiveShadows="true" nonRenderable="true">
+          <Shape shapeId="106" name="publicStandTrashcanUS08snow" lockedgroup="true" translation="4.10938 0.223282 -1.10162" rotation="-80.6486 -25.3695 164.623" scale="0.987605 1 0.847987" dynamic="true" nodeId="1091" materialIds="62" castsShadows="true" receiveShadows="true" nonRenderable="true">
             <Shape shapeId="107" name="publicStandTrashcanUS08snow_vis" translation="0 0 0.000523817" clipDistance="100" nodeId="1092" materialIds="54" castsShadows="true" receiveShadows="true"/>
           </Shape>
           <Shape shapeId="108" name="bollard02" lockedgroup="true" translation="1.75 0.125 -0" static="true" nodeId="1093" materialIds="62" castsShadows="true" receiveShadows="true" nonRenderable="true">
@@ -1681,7 +1681,7 @@
           <Shape shapeId="108" name="bollard02" lockedgroup="true" translation="-3.5 0.125 -0.084" rotation="0 -86.3711 0" static="true" nodeId="1095" materialIds="62" castsShadows="true" receiveShadows="true" nonRenderable="true">
             <Shape shapeId="109" name="bollard02_vis" clipDistance="50" nodeId="1096" materialIds="54" castsShadows="true" receiveShadows="true"/>
           </Shape>
-          <Shape shapeId="110" name="gasCanister" lockedgroup="true" translation="0.865234 0.145481 -0.545643" rotation="-0.346912 -27.7202 0.161846" dynamic="true" density="0.5" nodeId="1097" materialIds="62" castsShadows="true" receiveShadows="true" nonRenderable="true">
+          <Shape shapeId="110" name="gasCanister" lockedgroup="true" translation="1.18158 0.372089 -0.438477" rotation="1.56744 -6.21413 -90.1582" scale="0.83483 1 0.998751" dynamic="true" density="0.5" nodeId="1097" materialIds="62" castsShadows="true" receiveShadows="true" nonRenderable="true">
             <Shape shapeId="111" name="gasCanister_vis" clipDistance="30" nodeId="1098" materialIds="53" castsShadows="true" receiveShadows="true"/>
           </Shape>
         </TransformGroup>
@@ -6602,27 +6602,22 @@
           <Shape shapeId="130" name="shrubLong9m_lod1" scale="0.6 0.6 0.5" clipDistance="900" nodeId="4377" materialIds="69" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="Water PLane" nodeId="4378">
-        <Shape shapeId="131" name="waterPlane" translation="90.7493 57.7538 974.588" rotation="-1.75627 -0.158513 -1.26155" scale="12.5384 1 48.291" nodeId="4379" materialIds="101" receiveShadows="true"/>
-        <Shape shapeId="131" name="waterPlane" translation="121.849 57.2147 926.942" scale="26.5579 1 24.802" static="true" trigger="true" collisionMask="2147483648" nodeId="4380" materialIds="101" receiveShadows="true"/>
-        <Shape shapeId="131" name="waterPlane" translation="406.854 54.801 943.102" scale="257.563 1 68.821" static="true" trigger="true" collisionMask="2147483648" nodeId="17916" materialIds="101" receiveShadows="true"/>
-        <Shape shapeId="131" name="waterPlane" translation="406.854 54.801 808.802" scale="257.563 1 68.821" static="true" trigger="true" collisionMask="2147483648" nodeId="17918" materialIds="101" receiveShadows="true"/>
-        <Shape shapeId="131" name="waterPlane" translation="46.7535 50.7849 613.771" rotation="0 90 0" scale="257.563 1 182.339" static="true" trigger="true" collisionMask="2147483648" nodeId="17919" materialIds="101" receiveShadows="true"/>
-        <Shape shapeId="131" name="waterPlane" translation="335.749 48 -437.44" rotation="0 90 0" scale="500 1 500" static="true" trigger="true" collisionMask="2147483648" nodeId="17920" materialIds="101" receiveShadows="true"/>
-        <Shape shapeId="131" name="waterPlane" translation="-407.401 47 236.631" rotation="0 90 0" scale="500 1 500" static="true" trigger="true" collisionMask="2147483648" nodeId="17921" materialIds="101" receiveShadows="true"/>
+      <TransformGroup name="Water PLane" nodeId="17918">
+        <Shape shapeId="131" name="waterPlane" translation="90.7493 57.7538 974.588" rotation="-1.75627 -0.158513 -1.26155" scale="12.5384 1 48.291" nodeId="17919" materialIds="17915" receiveShadows="true"/>
+        <Shape shapeId="131" name="waterPlane" translation="121.849 57.2147 926.942" scale="26.5579 1 24.802" static="true" trigger="true" collisionMask="2147483648" nodeId="17920" materialIds="17915" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="unloadingStation" lockedgroup="true" translation="898.356 60.401 950.655" rotation="0 90 0" nodeId="4381">
-        <TransformGroup name="tipOcclusionUpdateAreas" nodeId="4382">
-          <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-4.40057 0 2.96728" rotation="0 90 0" nodeId="4383">
-            <TransformGroup name="tipOcclusionUpdateArea1End" translation="4.8 0 8.8" nodeId="4384"/>
+      <TransformGroup name="unloadingStation" lockedgroup="true" translation="898.356 60.401 950.655" rotation="0 90 0" nodeId="4380">
+        <TransformGroup name="tipOcclusionUpdateAreas" nodeId="4381">
+          <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-4.40057 0 2.96728" rotation="0 90 0" nodeId="4382">
+            <TransformGroup name="tipOcclusionUpdateArea1End" translation="4.8 0 8.8" nodeId="4383"/>
           </TransformGroup>
         </TransformGroup>
-        <Shape shapeId="132" name="unloadTriggerGrain" translation="0.317 0 -0.376" static="true" trigger="true" collisionMask="1073741824" nodeId="4385" materialIds="62" nonRenderable="true">
-          <TransformGroup name="unloadTriggerGrainMarker" nodeId="4386"/>
+        <Shape shapeId="132" name="unloadTriggerGrain" translation="0.317 0 -0.376" static="true" trigger="true" collisionMask="1073741824" nodeId="4384" materialIds="62" nonRenderable="true">
+          <TransformGroup name="unloadTriggerGrainMarker" nodeId="4385"/>
         </Shape>
-        <TransformGroup name="teleportNode" nodeId="4387"/>
-        <TransformGroup name="aiNodeGrain" rotation="0 90 0" nodeId="4388"/>
-        <Shape shapeId="133" name="aiSplineGrain" visibility="false" nodeId="4389"/>
+        <TransformGroup name="teleportNode" nodeId="4386"/>
+        <TransformGroup name="aiNodeGrain" rotation="0 90 0" nodeId="4387"/>
+        <Shape shapeId="133" name="aiSplineGrain" visibility="false" nodeId="4388"/>
       </TransformGroup>
   </Scene>
 
@@ -6684,25 +6679,10 @@
     <UserAttribute nodeId="1114">
       <Attribute name="noTireTracks" type="boolean" value="true"/>
     </UserAttribute>
-    <UserAttribute nodeId="4379">
-      <Attribute name="onCreate" type="scriptCallback" value="Environment.onCreateWater"/>
-    </UserAttribute>
-    <UserAttribute nodeId="4380">
-      <Attribute name="onCreate" type="scriptCallback" value="Environment.onCreateWater"/>
-    </UserAttribute>
-    <UserAttribute nodeId="17916">
-      <Attribute name="onCreate" type="scriptCallback" value="Environment.onCreateWater"/>
-    </UserAttribute>
-    <UserAttribute nodeId="17918">
-      <Attribute name="onCreate" type="scriptCallback" value="Environment.onCreateWater"/>
-    </UserAttribute>
     <UserAttribute nodeId="17919">
       <Attribute name="onCreate" type="scriptCallback" value="Environment.onCreateWater"/>
     </UserAttribute>
     <UserAttribute nodeId="17920">
-      <Attribute name="onCreate" type="scriptCallback" value="Environment.onCreateWater"/>
-    </UserAttribute>
-    <UserAttribute nodeId="17921">
       <Attribute name="onCreate" type="scriptCallback" value="Environment.onCreateWater"/>
     </UserAttribute>
   </UserAttributes>
