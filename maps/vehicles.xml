@@ -467,4 +467,57 @@
     <attachments rootVehicleId="12">
         <attachment attachmentId="13" inputJointDescIndex="1" jointIndex="1" moveDown="true"/>
     </attachments>
+    <vehicle filename="data/vehicles/seppKnusel/f240/f240.xml" id="17" isAbsolute="true" age="0.000000" price="12000.000000" farmId="1" defaultFarmProperty="true" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="1005.799987793 59.996673583984 957.13897705078" rotation="-179.9994722542 9.9607164234472e-05 -179.99974546177"/>
+        <component index="2" position="1005.7999267578 60.628898620605 957.34149169922" rotation="-179.99522387654 -6.9176880714771e-05 -179.99973180139"/>
+        <configuration name="folding" id="1"/>
+        <boughtConfiguration name="folding" id="1"/>
+        <washable>
+            <dirtNode amount="0.000031"/>
+        </washable>
+        <wearable damage="0.000000">
+            <wearNode amount="0.000006"/>
+        </wearable>
+        <wheels lastWheelConfiguration="1"/>
+        <attachable lowerAnimTime="0.000000"/>
+        <attacherJoints comboDirection="-1"/>
+        <foldable foldAnimTime="1.000000"/>
+        <workMode state="1"/>
+        <actionController lastDirection="-1" numActions="2">
+            <action name="turnOn" identifier="data/vehicles/seppKnusel/f240/f240.xml" lastDirection="-1"/>
+        </actionController>
+    </vehicle>
+    <vehicle filename="data/vehicles/poettinger/bossAlpin251/bossAlpin251.xml" id="18" isAbsolute="true" age="0.000000" price="30500.000000" farmId="1" defaultFarmProperty="true" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="1002.8998413086 60.044231414795 957.33734130859" rotation="178.69351276414 0.0059687553231997 179.99490968784"/>
+        <component index="2" position="1002.9001464844 60.610080718994 955.30426025391" rotation="-179.74821691539 0.0058153691346836 179.99497798973"/>
+        <configuration name="fillUnit" id="1"/>
+        <configuration name="fillVolume" id="1"/>
+        <configuration name="wheel" id="1"/>
+        <configuration name="trailer" id="1"/>
+        <boughtConfiguration name="fillUnit" id="1"/>
+        <boughtConfiguration name="fillVolume" id="1"/>
+        <boughtConfiguration name="wheel" id="1"/>
+        <boughtConfiguration name="trailer" id="1"/>
+        <washable>
+            <dirtNode amount="0.000050"/>
+            <dirtNode amount="0.000050" snowScale="0.000000"/>
+            <dirtNode amount="0.000050" snowScale="0.000000"/>
+            <dirtNode amount="0.000050" snowScale="0.000000"/>
+            <dirtNode amount="0.000050" snowScale="0.000000"/>
+        </washable>
+        <wearable damage="0.000000">
+            <wearNode amount="0.000009"/>
+        </wearable>
+        <licensePlates variation="1" characters="XS-684-MI" colorIndex="1" placementIndex="1"/>
+        <wheels lastWheelConfiguration="1"/>
+        <attacherJoints comboDirection="-1"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+        <actionController lastDirection="-1" numActions="2">
+            <action name="turnOn" identifier="data/vehicles/poettinger/bossAlpin251/bossAlpin251.xml" lastDirection="-1"/>
+            <action name="lowerPickup" identifier="data/vehicles/poettinger/bossAlpin251/bossAlpin251.xml" lastDirection="-1"/>
+        </actionController>
+    </vehicle>
 </vehicles>
